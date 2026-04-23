@@ -1,22 +1,26 @@
-[
+{
+ "version": 1,
+ "products": [
   {
-    "id": "2270",
+    "deviceModelId": "2270",
     "name": "COLORado Solo Pod 1",
     "blurb": null,
-    "lightSource": null,
-    "colorTemperature": null,
-    "lumens": null,
-    "cri": null,
-    "dimensions": null,
-    "weight": null,
-    "powerConnection": null,
-    "dataConnectors": null,
-    "inputVoltage": null,
-    "autoRanging": true,
-    "powerandCurrent120V": null,
-    "powerandCurrent208V": null,
-    "powerandCurrent230V": null,
-    "Downloads": {
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
       "userManual": null,
       "photometrics": null,
       "dmxChart": null,
@@ -24,23 +28,25 @@
     }
   },
   {
-    "id": "2271",
+    "deviceModelId": "2271",
     "name": "COLORado Solo Pod 2",
     "blurb": null,
-    "lightSource": null,
-    "colorTemperature": null,
-    "lumens": null,
-    "cri": null,
-    "dimensions": null,
-    "weight": null,
-    "powerConnection": null,
-    "dataConnectors": null,
-    "inputVoltage": null,
-    "autoRanging": true,
-    "powerandCurrent120V": null,
-    "powerandCurrent208V": null,
-    "powerandCurrent230V": null,
-    "Downloads": {
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
       "userManual": null,
       "photometrics": null,
       "dmxChart": null,
@@ -48,23 +54,25 @@
     }
   },
   {
-    "id": "2272",
+    "deviceModelId": "2272",
     "name": "COLORado Solo Pod 3",
     "blurb": null,
-    "lightSource": null,
-    "colorTemperature": null,
-    "lumens": null,
-    "cri": null,
-    "dimensions": null,
-    "weight": null,
-    "powerConnection": null,
-    "dataConnectors": null,
-    "inputVoltage": null,
-    "autoRanging": true,
-    "powerandCurrent120V": null,
-    "powerandCurrent208V": null,
-    "powerandCurrent230V": null,
-    "Downloads": {
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
       "userManual": null,
       "photometrics": null,
       "dmxChart": null,
@@ -72,7 +80,7 @@
     }
   },
   {
-    "id": "2277",
+    "deviceModelId": "2277",
     "name": "COLORado Solo Bar 1",
     "website": "https://chauvetprofessional.com/product/colorado-solo-bar-1/",
     "blurb": "A versatile, 4-cell IP65-rated RGBwWL LED batten that produces a full spectrum of color, high-quality whites, and seamless pixel-mapped looks for use as a cyc, footlight, or downlight. Its all-weather durability and silent, camera-friendly operation make it ideal for touring, festivals, broadcast, theatre, and permanent installations.",
@@ -91,7 +99,7 @@
       "powerandCurrent208V": "106 W, 0.59 A @ 208 V, 60 Hz",
       "powerandCurrent230V": "105 W, 0.48 A @ 230 V, 50 Hz"
     },
-    "Downloads": {
+    "downloads": {
       "userManual": "https://www.chauvetprofessional.com/wp-content/uploads/2024/08/COLORado_Solo_Bar_1_UM_Rev3.pdf?_gl=1*1jli8ih*_ga*NzQ3MzMzMTYwLjE3NzY0MzMyOTE.*_ga_L0HHF17CH0*czE3NzY5NzA0NDMkbzUkZzEkdDE3NzY5NzA1NjQkajIyJGwwJGgw",
       "photometrics": "https://www.chauvetprofessional.com/wp-content/uploads/2024/08/COLORado_Solo_Bar_1_Photometrics_Report_Rev1.pdf?_gl=1*daxvln*_ga*NzQ3MzMzMTYwLjE3NzY0MzMyOTE.*_ga_L0HHF17CH0*czE3NzY5NzA0NDMkbzUkZzEkdDE3NzY5NzA4NjckajYwJGwwJGgw",
       "dmxChart": "https://www.chauvetprofessional.com/wp-content/uploads/2024/08/COLORado_Solo_Bar_4_DMX_Chart_Rev4.pdf?_gl=1*1jli8ih*_ga*NzQ3MzMzMTYwLjE3NzY0MzMyOTE.*_ga_L0HHF17CH0*czE3NzY5NzA0NDMkbzUkZzEkdDE3NzY5NzA1NjQkajIyJGwwJGgw",
@@ -99,23 +107,25 @@
     }
   },
   {
-    "id": "2278",
+    "deviceModelId": "2278",
     "name": "COLORado Solo Bar 4",
     "blurb": "A versatile, IP65-rated RGBwWL LED batten featuring 16 homogenized cells that produces seamless pixel-mapped looks, a full spectrum of color, and high-quality whites. Ideal for touring, festivals, theatrical, and televised productions, this fixture provides silent, all-weather, and camera-ready performance for both temporary events and permanent installations.",
-    "lightSource": "16 (RGBWwL) LED Engines",
-    "colorTemperature": "8,810 K",
-    "lumens": "17,090 lm",
-    "cri": "95",
-    "dimensions": "46.63 x 7.87 x 8.36 in (1184.5 x 200 x 212.4 mm)",
-    "weight": "38.0 lb (17.0 kg)",
-    "powerConnection": "Edison (Local) plug to Seetronic Powerkon IP65",
-    "dataConnectors": "5-pin IP65 XLR, Seetronic etherCON® compatible",
-    "inputVoltage": "100 to 240 VAC, 50/60 Hz (auto-ranging)",
-    "autoRanging": true,
-    "powerandCurrent120V": "370 W, 3.11 A @ 120 V, 60 Hz",
-    "powerandCurrent208V": "363 W, 1.80 A @ 208 V, 60 Hz",
-    "powerandCurrent230V": "363 W, 1.63 A @ 230 V, 50 Hz",
-    "Downloads": {
+    "specs": {
+      "lightSource": "16 (RGBWwL) LED Engines",
+      "colorTemperature": "8,810 K",
+      "lumens": "17,090 lm",
+      "cri": "95",
+      "dimensions": "46.63 x 7.87 x 8.36 in (1184.5 x 200 x 212.4 mm)",
+      "weight": "38.0 lb (17.0 kg)",
+      "powerConnection": "Edison (Local) plug to Seetronic Powerkon IP65",
+      "dataConnectors": "5-pin IP65 XLR, Seetronic etherCON® compatible",
+      "inputVoltage": "100 to 240 VAC, 50/60 Hz (auto-ranging)",
+      "autoRanging": true,
+      "powerandCurrent120V": "370 W, 3.11 A @ 120 V, 60 Hz",
+      "powerandCurrent208V": "363 W, 1.80 A @ 208 V, 60 Hz",
+      "powerandCurrent230V": "363 W, 1.63 A @ 230 V, 50 Hz"
+    },
+    "downloads": {
       "userManual": "https://www.chauvetprofessional.com/wp-content/uploads/2024/08/COLORado_Solo_Bar_4_UM_Rev2.pdf?_gl=1*1u9iwsa*_ga*NzQ3MzMzMTYwLjE3NzY0MzMyOTE.*_ga_L0HHF17CH0*czE3NzY5NzA0NDMkbzUkZzEkdDE3NzY5NzE0MzgkajUxJGwwJGgw",
       "photometrics": "https://www.chauvetprofessional.com/wp-content/uploads/2024/08/COLORado_Solo_Bar_4_Photometrics_Report_Rev1.pdf?_gl=1*ohag53*_ga*NzQ3MzMzMTYwLjE3NzY0MzMyOTE.*_ga_L0HHF17CH0*czE3NzY5NzA0NDMkbzUkZzEkdDE3NzY5NzE0MzgkajUxJGwwJGgw",
       "dmxChart": "https://www.chauvetprofessional.com/wp-content/uploads/2024/08/COLORado_Solo_Bar_4_DMX_Chart_Rev4.pdf?_gl=1*1u9iwsa*_ga*NzQ3MzMzMTYwLjE3NzY0MzMyOTE.*_ga_L0HHF17CH0*czE3NzY5NzA0NDMkbzUkZzEkdDE3NzY5NzE0MzgkajUxJGwwJGgw",
@@ -123,23 +133,25 @@
     }
   },
   {
-    "id": "2279",
+    "deviceModelId": "2279",
     "name": "COLORado Solo Bar 6",
     "blurb": "A versatile, IP65-rated RGBwWL LED batten that delivers a full spectrum of color and high-quality whites from 24 homogenized cells, providing seamless pixel-mapping effects and powerful washes. Ideal for touring, festivals, broadcast, and theatrical applications, its silent, all-weather, and camera-ready performance excels in both temporary and permanent installations.",
-    "lightSource": "24 (RGBWwL) LED Engines",
-    "colorTemperature": "9167 K",
-    "lumens": "25,198 lm",
-    "cri": "95",
-    "dimensions": "69.61 x 7.87 x 8.36 in (1768 x 200 x 212.4 mm)",
-    "weight": "49 lb (22.3 kg)",
-    "powerConnection": "Edison (Local) plug to Seetronic Powerkon IP65",
-    "dataConnectors": "5-pin IP65 XLR, Seetronic etherCON® compatible",
-    "inputVoltage": "100 to 240 VAC, 50/60 Hz (auto-ranging)",
-    "autoRanging": true,
-    "powerandCurrent120V": "600 W, 4.98 A @ 120 V, 60 Hz [12 A inrush]",
-    "powerandCurrent208V": "590 W, 2.78 A @ 208 V, 60 Hz [17 A inrush]",
-    "powerandCurrent230V": "575 W, 2.55 A @ 230 V, 50 Hz [34 A inrush]",
-    "Downloads": {
+    "specs": {
+      "lightSource": "24 (RGBWwL) LED Engines",
+      "colorTemperature": "9167 K",
+      "lumens": "25,198 lm",
+      "cri": "95",
+      "dimensions": "69.61 x 7.87 x 8.36 in (1768 x 200 x 212.4 mm)",
+      "weight": "49 lb (22.3 kg)",
+      "powerConnection": "Edison (Local) plug to Seetronic Powerkon IP65",
+      "dataConnectors": "5-pin IP65 XLR, Seetronic etherCON® compatible",
+      "inputVoltage": "100 to 240 VAC, 50/60 Hz (auto-ranging)",
+      "autoRanging": true,
+      "powerandCurrent120V": "600 W, 4.98 A @ 120 V, 60 Hz [12 A inrush]",
+      "powerandCurrent208V": "590 W, 2.78 A @ 208 V, 60 Hz [17 A inrush]",
+      "powerandCurrent230V": "575 W, 2.55 A @ 230 V, 50 Hz [34 A inrush]"
+    },
+    "downloads": {
       "userManual": "https://www.chauvetprofessional.com/wp-content/uploads/2024/08/COLORado_Solo_Bar_6_UM_Rev2.pdf?_gl=1*h7ibqu*_ga*NzQ3MzMzMTYwLjE3NzY0MzMyOTE.*_ga_L0HHF17CH0*czE3NzY5NzA0NDMkbzUkZzEkdDE3NzY5NzE3OTQkajUwJGwwJGgw",
       "photometrics": "https://www.chauvetprofessional.com/wp-content/uploads/2024/08/COLORado-Solo-Bar-6_Photometrics-Report.pdf?_gl=1*h7ibqu*_ga*NzQ3MzMzMTYwLjE3NzY0MzMyOTE.*_ga_L0HHF17CH0*czE3NzY5NzA0NDMkbzUkZzEkdDE3NzY5NzE3OTQkajUwJGwwJGgw",
       "dmxChart": "https://www.chauvetprofessional.com/wp-content/uploads/2024/08/COLORado-Solo-Bar-6_DMX-Chart_Rev5.pdf?_gl=1*h7ibqu*_ga*NzQ3MzMzMTYwLjE3NzY0MzMyOTE.*_ga_L0HHF17CH0*czE3NzY5NzA0NDMkbzUkZzEkdDE3NzY5NzE3OTQkajUwJGwwJGgw",
@@ -147,7 +159,7 @@
     }
   },
   {
-    "id": "2629",
+    "deviceModelId": "2629",
     "name": "Maverick Storm 1 Flex",
     "website": "https://chauvetprofessional.com/product/maverick-storm-1-flex/",
     "blurb": "The Maverick Storm 1 Flex is a compact, intensely bright, IP65-rated LED moving head that delivers perfectly even output, versatile beam-to-spot functionality, and a full effects package including gobos, a prism, and animation.  Ideal for tours, festivals, and large-scale productions, this fixture provides lighting designers with a powerful and weather-resistant tool for creating stunning textured looks and solid beams in any environment.",
@@ -166,7 +178,7 @@
       "powerandCurrent208V": "734 W, 3.60 A @ 208 V, 60 Hz",
       "powerandCurrent230V": "738 W, 3.30 A @ 230 V, 50 Hz"
     },
-    "Downloads": {
+    "downloads": {
       "userManual": "https://www.chauvetprofessional.com/wp-content/uploads/2025/03/Maverick_Storm_1_Flex_UM_Rev5.pdf?_gl=1*m5zv8d*_ga*NzQ3MzMzMTYwLjE3NzY0MzMyOTE.*_ga_L0HHF17CH0*czE3NzY5NjU5MjkkbzQkZzAkdDE3NzY5NjU5MjkkajYwJGwwJGgw",
       "photometrics": "https://chauvetprofessional.com/wp-content/uploads/2024/10/Maverick-Storm-1-Flex-Photometrics-Report-1.pdf?_gl=1*1puhdr1*_ga*NzQ3MzMzMTYwLjE3NzY0MzMyOTE.*_ga_L0HHF17CH0*czE3NzY5NjU5MjkkbzQkZzEkdDE3NzY5NjU5OTckajYwJGwwJGgw",
       "dmxChart": "https://chauvetprofessional.com/wp-content/uploads/2025/03/Maverick_Storm_1_Flex_DMX_Chart_Rev2.pdf?_gl=1*14of6me*_ga*NzQ3MzMzMTYwLjE3NzY0MzMyOTE.*_ga_L0HHF17CH0*czE3NzY5NjU5MjkkbzQkZzEkdDE3NzY5NjYwMDckajUwJGwwJGgw",
@@ -174,23 +186,25 @@
     }
   },
   {
-    "id": "2655",
+    "deviceModelId": "2655",
     "name": "Ovation Reve E4",
     "blurb": null,
-    "lightSource": null,
-    "colorTemperature": null,
-    "lumens": null,
-    "cri": null,
-    "dimensions": null,
-    "weight": null,
-    "powerConnection": null,
-    "dataConnectors": null,
-    "inputVoltage": null,
-    "autoRanging": true,
-    "powerandCurrent120V": null,
-    "powerandCurrent208V": null,
-    "powerandCurrent230V": null,
-    "Downloads": {
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
       "userManual": null,
       "photometrics": null,
       "dmxChart": null,
@@ -198,23 +212,25 @@
     }
   },
   {
-    "id": "2802",
+    "deviceModelId": "2802",
     "name": "Maverick Storm LT",
     "blurb": null,
-    "lightSource": null,
-    "colorTemperature": null,
-    "lumens": null,
-    "cri": null,
-    "dimensions": null,
-    "weight": null,
-    "powerConnection": null,
-    "dataConnectors": null,
-    "inputVoltage": null,
-    "autoRanging": true,
-    "powerandCurrent120V": null,
-    "powerandCurrent208V": null,
-    "powerandCurrent230V": null,
-    "Downloads": {
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
       "userManual": null,
       "photometrics": null,
       "dmxChart": null,
@@ -222,3 +238,4 @@
     }
   }
 ]
+}
