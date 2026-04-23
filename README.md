@@ -14,6 +14,6 @@ TODO
 
 6. Trips
 
-7. MVR: QR Code, CSV Format
+7. Patch List: MVR, QR Code, CSV Format
 
-8. 
+8. Scanning Fixture Logs, interpretting.
