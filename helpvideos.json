@@ -1,38 +1,41 @@
-[
-    {
-        "id": "MLfG3-sErfU",
-        "title": "Connecting to the Well Connect"
-    },
-    {
-        "id": "VnGrfOhmHrQ",
-        "title": "Linking a Fixture"
-    },
-    {
-        "id": "F_I-teQIHgI",
-        "title": "Unlink Fixtures"
-    },
-    {
-        "id": "Xt4943VYIyo",
-        "title": "Add Fixture / Patch Fixture "
-      },
-      {
-        "id": "vnXPfBsJFGU",
-        "title": "Add Fixtures to Plot"
-      },
-      {
-        "id": "utlQQ8VvVJA",
-        "title": "Creating a Grouping and Groups"
-      },
-      {
-        "id": "2C6Qf6tbZVE",
-        "title": "Creating a Scene"
-      },
-      {
-        "id": "yrccK-x8lUI",
-        "title": "Playing Back a Scene"
-      },
-      {
-        "id": "VKJgSBU3uhE",
-        "title": "Master Section"
-      }
-]
+{
+    "version": 1,
+    "helpVideos": [
+        {
+            "id": "MLfG3-sErfU",
+            "title": "Connecting to the Well Connect"
+        },
+        {
+            "id": "VnGrfOhmHrQ",
+            "title": "Linking a Fixture"
+        },
+        {
+            "id": "F_I-teQIHgI",
+            "title": "Unlink Fixtures"
+        },
+        {
+            "id": "Xt4943VYIyo",
+            "title": "Add Fixture / Patch Fixture"
+        },
+        {
+            "id": "vnXPfBsJFGU",
+            "title": "Add Fixtures to Plot"
+        },
+        {
+            "id": "utlQQ8VvVJA",
+            "title": "Creating a Grouping and Groups"
+        },
+        {
+            "id": "2C6Qf6tbZVE",
+            "title": "Creating a Scene"
+        },
+        {
+            "id": "yrccK-x8lUI",
+            "title": "Playing Back a Scene"
+        },
+        {
+            "id": "VKJgSBU3uhE",
+            "title": "Master Section"
+        }
+    ]
+}
