@@ -1,9 +1,11 @@
 {
- "version": 1,
+ "version": 2,
  "products": [
   {
     "deviceModelId": 2270,
     "name": "COLORado Solo Pod 1",
+    "new": false,
+    "website": null,
     "blurb": null,
     "specs": {
       "lightSource": null,
@@ -30,6 +32,8 @@
   {
     "deviceModelId": 2271,
     "name": "COLORado Solo Pod 2",
+    "new": false,
+    "website": null,
     "blurb": null,
     "specs": {
       "lightSource": null,
@@ -56,6 +60,8 @@
   {
     "deviceModelId": 2272,
     "name": "COLORado Solo Pod 3",
+    "new": true,
+    "website": null,
     "blurb": null,
     "specs": {
       "lightSource": null,
@@ -82,6 +88,7 @@
   {
     "deviceModelId": 2277,
     "name": "COLORado Solo Bar 1",
+    "new": false,
     "website": "https://chauvetprofessional.com/product/colorado-solo-bar-1/",
     "blurb": "A versatile, 4-cell IP65-rated RGBwWL LED batten that produces a full spectrum of color, high-quality whites, and seamless pixel-mapped looks for use as a cyc, footlight, or downlight. Its all-weather durability and silent, camera-friendly operation make it ideal for touring, festivals, broadcast, theatre, and permanent installations.",
     "specs": {
@@ -109,6 +116,8 @@
   {
     "deviceModelId": 2278,
     "name": "COLORado Solo Bar 4",
+    "new": false,
+    "website": null,
     "blurb": "A versatile, IP65-rated RGBwWL LED batten featuring 16 homogenized cells that produces seamless pixel-mapped looks, a full spectrum of color, and high-quality whites. Ideal for touring, festivals, theatrical, and televised productions, this fixture provides silent, all-weather, and camera-ready performance for both temporary events and permanent installations.",
     "specs": {
       "lightSource": "16 (RGBWwL) LED Engines",
@@ -135,6 +144,8 @@
   {
     "deviceModelId": 2279,
     "name": "COLORado Solo Bar 6",
+    "new": false,
+    "website": null,
     "blurb": "A versatile, IP65-rated RGBwWL LED batten that delivers a full spectrum of color and high-quality whites from 24 homogenized cells, providing seamless pixel-mapping effects and powerful washes. Ideal for touring, festivals, broadcast, and theatrical applications, its silent, all-weather, and camera-ready performance excels in both temporary and permanent installations.",
     "specs": {
       "lightSource": "24 (RGBWwL) LED Engines",
@@ -161,6 +172,7 @@
   {
     "deviceModelId": 2629,
     "name": "Maverick Storm 1 Flex",
+    "new": true,
     "website": "https://chauvetprofessional.com/product/maverick-storm-1-flex/",
     "blurb": "The Maverick Storm 1 Flex is a compact, intensely bright, IP65-rated LED moving head that delivers perfectly even output, versatile beam-to-spot functionality, and a full effects package including gobos, a prism, and animation.  Ideal for tours, festivals, and large-scale productions, this fixture provides lighting designers with a powerful and weather-resistant tool for creating stunning textured looks and solid beams in any environment.",
     "specs": {
@@ -188,6 +200,8 @@
   {
     "deviceModelId": 2655,
     "name": "Ovation Reve E4",
+    "new": false,
+    "website": null,
     "blurb": null,
     "specs": {
       "lightSource": null,
@@ -214,6 +228,8 @@
   {
     "deviceModelId": 2802,
     "name": "Maverick Storm LT",
+    "new": false,
+    "website": null,
     "blurb": null,
     "specs": {
       "lightSource": null,
