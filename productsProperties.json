@@ -3,6 +3,7 @@
  "products": [
   {
     "deviceModelId": 2270,
+    "family": "COLORado",
     "name": "COLORado Solo Pod 1",
     "new": false,
     "website": null,
@@ -31,6 +32,7 @@
   },
   {
     "deviceModelId": 2271,
+    "family": "COLORado",
     "name": "COLORado Solo Pod 2",
     "new": false,
     "website": null,
@@ -59,6 +61,7 @@
   },
   {
     "deviceModelId": 2272,
+    "family": "COLORado",
     "name": "COLORado Solo Pod 3",
     "new": true,
     "website": null,
@@ -87,6 +90,7 @@
   },
   {
     "deviceModelId": 2277,
+    "family": "COLORado",
     "name": "COLORado Solo Bar 1",
     "new": false,
     "website": "https://chauvetprofessional.com/product/colorado-solo-bar-1/",
@@ -115,6 +119,7 @@
   },
   {
     "deviceModelId": 2278,
+    "family": "COLORado",
     "name": "COLORado Solo Bar 4",
     "new": false,
     "website": null,
@@ -143,6 +148,7 @@
   },
   {
     "deviceModelId": 2279,
+    "family": "COLORado",
     "name": "COLORado Solo Bar 6",
     "new": false,
     "website": null,
@@ -171,6 +177,7 @@
   },
   {
     "deviceModelId": 2629,
+    "family": "Maverick",
     "name": "Maverick Storm 1 Flex",
     "new": true,
     "website": "https://chauvetprofessional.com/product/maverick-storm-1-flex/",
@@ -199,6 +206,7 @@
   },
   {
     "deviceModelId": 2655,
+    "family": "Ovation",
     "name": "Ovation Reve E4",
     "new": false,
     "website": null,
@@ -227,6 +235,7 @@
   },
   {
     "deviceModelId": 2802,
+    "family": "Maverick",
     "name": "Maverick Storm LT",
     "new": false,
     "website": null,
