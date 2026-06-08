@@ -1,10 +1,100 @@
 {
-    "version": 1,
+    "version": 2,
     "helpVideos": [
         {
             "id": "8IyMaLO1MgY",
             "title": "Getting Started"
-        }
+        },
+        {
+            "id": "z_PUL8P5EQU",
+            "title": "Fixture NFC Info"
+        },
+        {
+            "id": "7AnnTeieQdM",
+            "title": "Explore Fixtures"
+        },
+        {
+            "id": "MuY-qN0Qj3o",
+            "title": "Explore Fixtures-Additional"
+        },
+        {
+            "id": "Hxwoa1TZuCs",
+            "title": "Templates Menu"
+        },
+        {
+            "id": "",
+            "title": "Templates-How to Create A Template"
+        },
+        {
+            "id": "QNomAkBX_5c",
+            "title": "Templates-How to Import A Template"
+        },
+        {
+            "id": "EGBN3rqBcGM",
+            "title": "Templates-Safe Importing"
+        },
+        {
+            "id": "",
+            "title": "Templates Tools-Auto Prep"
+        },
+        {
+            "id": "9RMlZ22kC5I",
+            "title": "Templates Tools-Auto Test"
+        },
+        {
+            "id": "RqVSJLpAVjg",
+            "title": "Templates Tools-Reset Defaults"
+        },
+        {
+            "id": "TCXbJHa4Oe4&list",
+            "title": "Templates Tools-Firmware Version Checker"
+        },
+        {
+            "id": "B7CKHJDOz8s&list",
+            "title": "Patch List-Importing MVR Fixture Patch"
+        },
+        {
+            "id": "oUm0ZM4vfjc&list",
+            "title": "Patch List-MVR Plot View"
+        },
+        {
+            "id": "sdbdymTICUg&list",
+            "title": "Patch List-Importing Chamsys QR Code Fixture Patch"
+        },
+        {
+            "id": "si8HzbyFiK4&list",
+            "title": "Patch List-Importing Chamsys CSV Fixture Patchy"
+        },
+        {
+            "id": "phyOL597WjE&list",
+            "title": "Patch List-Reset Defaults"
+        },
+        {
+            "id": "0qHGLnXx__w&list",
+            "title": "Patch List-Templates"
+        },
+        {
+            "id": "asxdAmazKj8&list",
+            "title": "Scan History Exporting"
+        },
+        {
+            "id": "08d5Um3geDY&list",
+            "title": "Fixture Firmware/Software Updating"
+        },
+        {
+            "id": "FpBSjJxz2D8&list",
+            "title": "Fixture-Firmware/Software Updating 2"
+        },
+        {
+            "id": "Gq7Pmn0vf0o&list",
+            "title": "Fixture-Commissioning Serial Number, Time Zone"
+        },
+        {
+            "id": "2oy4Po96SmQ&list",
+            "title": "APP Settings/Histoory Reset"
+        },
+        {}
+
 
     ]
 }
