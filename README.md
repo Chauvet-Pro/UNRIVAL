@@ -20,7 +20,3 @@ Getting a fixture working with the UNRIVAL app is a two-step process:
 
 ## Fixtures That Need Firmware Updates and Bluetooth Module Firmware
 
-| Fixture              | Firmware                                                                                            |
-| -------------------- | --------------------------------------------------------------------------------------------------- |
-| COLORado PXX Curve 1 | [V1.260609](https://github.com/Chauvet-Pro/MAVERICKSTORM1FLEX/raw/V1.260609/firmware/V1.260609.zip) |
-| COLORado PXX Curve 5 | [V1.260609](https://github.com/Chauvet-Pro/MAVERICKSTORM1FLEX/raw/V1.260609/firmware/V1.260609.zip) |
