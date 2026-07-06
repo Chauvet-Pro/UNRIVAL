@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "products": [
   {
     "deviceModelId": 2270,
@@ -127,7 +127,7 @@
     "name": "COLORado Solo Bar 4",
     "new": false,
     "dateAdded": null,
-    "website": null,
+    "website": "https://chauvetprofessional.com/product/colorado-solo-bar-4/",
     "blurb": "A versatile, IP65-rated RGBwWL LED batten featuring 16 homogenized cells that produces seamless pixel-mapped looks, a full spectrum of color, and high-quality whites. Ideal for touring, festivals, theatrical, and televised productions, this fixture provides silent, all-weather, and camera-ready performance for both temporary events and permanent installations.",
     "specs": {
       "lightSource": "16 (RGBWwL) LED Engines",
@@ -157,7 +157,7 @@
     "name": "COLORado Solo Bar 6",
     "new": false,
     "dateAdded": null,
-    "website": null,
+    "website": "https://chauvetprofessional.com/product/colorado-solo-bar-6/",
     "blurb": "A versatile, IP65-rated RGBwWL LED batten that delivers a full spectrum of color and high-quality whites from 24 homogenized cells, providing seamless pixel-mapping effects and powerful washes. Ideal for touring, festivals, broadcast, and theatrical applications, its silent, all-weather, and camera-ready performance excels in both temporary and permanent installations.",
     "specs": {
       "lightSource": "24 (RGBWwL) LED Engines",
@@ -212,9 +212,249 @@
     }
   },
   {
+    "deviceModelId": 2632,
+    "family": "Ovation",
+    "name": "Ovation Reve 3 Profile",
+    "new": false,
+    "dateAdded": null,
+    "website": null,
+    "blurb": null,
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
+      "userManual": null,
+      "photometrics": null,
+      "dmxChart": null,
+      "acousticReport": null
+    }
+  },
+  {
+    "deviceModelId": 2652,
+    "family": "Ovation",
+    "name": "Ovation Reve H1",
+    "new": false,
+    "dateAdded": null,
+    "website": null,
+    "blurb": null,
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
+      "userManual": null,
+      "photometrics": null,
+      "dmxChart": null,
+      "acousticReport": null
+    }
+  },
+  {
+    "deviceModelId": 2653,
+    "family": "Ovation",
+    "name": "Ovation Reve H2",
+    "new": false,
+    "dateAdded": null,
+    "website": null,
+    "blurb": null,
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
+      "userManual": null,
+      "photometrics": null,
+      "dmxChart": null,
+      "acousticReport": null
+    }
+  },
+  {
+    "deviceModelId": 2654,
+    "family": "Ovation",
+    "name": "Ovation Reve E1",
+    "new": false,
+    "dateAdded": null,
+    "website": null,
+    "blurb": null,
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
+      "userManual": null,
+      "photometrics": null,
+      "dmxChart": null,
+      "acousticReport": null
+    }
+  },
+  {
     "deviceModelId": 2655,
     "family": "Ovation",
-    "name": "Ovation Reve E4",
+    "name": "Ovation Reve E2",
+    "new": false,
+    "dateAdded": null,
+    "website": null,
+    "blurb": null,
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
+      "userManual": null,
+      "photometrics": null,
+      "dmxChart": null,
+      "acousticReport": null
+    }
+  },
+  {
+    "deviceModelId": 2659,
+    "family": "Ovation",
+    "name": "Ovation Reve F2",
+    "new": false,
+    "dateAdded": null,
+    "website": null,
+    "blurb": null,
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
+      "userManual": null,
+      "photometrics": null,
+      "dmxChart": null,
+      "acousticReport": null
+    }
+  },
+  {
+    "deviceModelId": 2665,
+    "family": "Ovation",
+    "name": "Ovation Reve P2 IP",
+    "new": false,
+    "dateAdded": null,
+    "website": null,
+    "blurb": null,
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
+      "userManual": null,
+      "photometrics": null,
+      "dmxChart": null,
+      "acousticReport": null
+    }
+  },
+  {
+    "deviceModelId": 2742,
+    "family": "COLORado",
+    "name": "COLORado PXL Curve 1",
+    "new": false,
+    "dateAdded": null,
+    "website": null,
+    "blurb": null,
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
+      "userManual": null,
+      "photometrics": null,
+      "dmxChart": null,
+      "acousticReport": null
+    }
+  },
+  {
+    "deviceModelId": 2799,
+    "family": "COLORdash",
+    "name": "COLORdash Gobo 2",
     "new": false,
     "dateAdded": null,
     "website": null,
@@ -245,6 +485,36 @@
     "deviceModelId": 2802,
     "family": "Maverick",
     "name": "Maverick Storm LT",
+    "new": false,
+    "dateAdded": null,
+    "website": null,
+    "blurb": null,
+    "specs": {
+      "lightSource": null,
+      "colorTemperature": null,
+      "lumens": null,
+      "cri": null,
+      "dimensions": null,
+      "weight": null,
+      "powerConnection": null,
+      "dataConnectors": null,
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": null,
+      "powerandCurrent208V": null,
+      "powerandCurrent230V": null
+    },
+    "downloads": {
+      "userManual": null,
+      "photometrics": null,
+      "dmxChart": null,
+      "acousticReport": null
+    }
+  },
+  {
+    "deviceModelId": 2813,
+    "family": "Ovation",
+    "name": "Ovation Reve 3 Wash Fresnel",
     "new": false,
     "dateAdded": null,
     "website": null,
