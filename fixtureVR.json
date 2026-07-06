@@ -1,6 +1,15 @@
 {
   "version": 2,
   "fixtures": {
-    "2655": { "url": "2629_vr/OVATION%20E2.2253.html" }
+    "2277": { "url": "2277_vr/COLORADO_SOLO_BAR_1.2489.html" },
+    "2278": { "url": "2278_vr/COLORADO_SOLO_BAR_4.2491.html" },
+    "2279": { "url": "2279_vr/COLORADO_SOLO_BAR_6.2493.html" },
+    "2629": { "url": "2629_vr/MAVERICK_STORM_1_FLEX.2459.html" },
+    "2632": { "url": "2632_vr/OVATION_REVE_3_PROFILE.2464.html" },
+    "2652": { "url": "2652_vr/OVATION_REVE_H1.2481.html" },
+    "2653": { "url": "2653_vr/OVATION_REVE_H2.2480.html" },
+    "2659": { "url": "2659_vr/OVATION_REVE_F2.2478.html" },
+    "2742": { "url": "2742_vr/COLORADO_PXL_CURVE_1.2497.html" },
+    "2813": { "url": "2813_vr/OVATION_REVE_3_WASH_FRESNEL.2467.html" }
   }
 }
