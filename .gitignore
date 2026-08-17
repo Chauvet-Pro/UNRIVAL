@@ -141,3 +141,6 @@ vite.config.ts.timestamp-*
 # hide the .idea
 .idea/
 
+# local working notes
+TODO.md
+

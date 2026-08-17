@@ -1,0 +1,30 @@
+name: Sync fixtures.json
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  # Fired by a firmware repo when it publishes a release — see
+  # scripts/firmware-repo-release-hook.yml
+  repository_dispatch:
+    types: [firmware-release]
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/sync_fixtures.py --selftest
+      - run: python3 scripts/sync_fixtures.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git diff --quiet fixtures.json && echo "no change" && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Sync fixtures.json with latest firmware releases"
+          git push
