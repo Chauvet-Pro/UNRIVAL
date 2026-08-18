@@ -28,3 +28,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -am "Sync fixtures.json with latest firmware releases"
           git push
+      # New public firmware repos land in fixtures.json above; give them the
+      # release hook so they report in themselves from then on.
+      - name: Enroll new repos in the release hook
+        if: github.event_name != 'repository_dispatch'
+        run: python3 scripts/ensure_hooks.py --selftest && python3 scripts/ensure_hooks.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.UNRIVAL_DISPATCH_TOKEN }}
