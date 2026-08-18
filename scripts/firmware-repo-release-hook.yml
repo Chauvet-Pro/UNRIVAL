@@ -1,10 +1,5 @@
-# Copy into a firmware repo as .github/workflows/notify-unrival.yml to make
-# fixtures.json update the moment that repo publishes a release, instead of
-# waiting for UNRIVAL's daily sync.
-#
-# Needs an org secret UNRIVAL_DISPATCH_TOKEN: a fine-grained PAT scoped to
-# Chauvet-Pro/UNRIVAL with Contents: read-write (that is what repository_dispatch
-# requires). Nothing else to configure.
+# Managed by Chauvet-Pro/UNRIVAL — tells that repo to refresh fixtures.json
+# when this repo publishes a release. Needs org secret UNRIVAL_DISPATCH_TOKEN.
 name: Notify UNRIVAL
 
 on:

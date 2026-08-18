@@ -144,3 +144,5 @@ vite.config.ts.timestamp-*
 # local working notes
 TODO.md
 
+
+__pycache__/
