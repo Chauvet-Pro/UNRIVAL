@@ -1,6 +1,17 @@
 {
-  "version": 1,
+  "version": 2,
   "fixtures": {
+    "Amhaze Stadium 2X IP": {
+      "unrival_id": null,
+      "family": null,
+      "aliases": [
+        "AMHAZESTADIUM2XIP"
+      ],
+      "firmware_version": "V1.1",
+      "released_at": "2026-02-05T22:05:01Z",
+      "release_notes": "Added fluid sensor status to the home screen",
+      "firmware_url": "https://github.com/Chauvet-Pro/AMHAZESTADIUM2XIP/raw/V1.1/Firmware/V1.zip"
+    },
     "COLORADO1QS": {
       "unrival_id": null,
       "family": "COLORado",
@@ -12,6 +23,17 @@
       "release_notes": null,
       "firmware_url": "https://github.com/Chauvet-Pro/COLORADO1QS/raw/main/firmware/V3_03-31-2022_Colorado1QS.zip"
     },
+    "COLORADO1QUAD": {
+      "unrival_id": null,
+      "family": "COLORado",
+      "aliases": [
+        "COLORADO1QUAD"
+      ],
+      "firmware_version": null,
+      "released_at": null,
+      "release_notes": null,
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADO1QUAD/raw/main/FIRMWARE/V1_12-27-2018_C1Quad.zip"
+    },
     "COLORADO1QUADTOUR": {
       "unrival_id": null,
       "family": "COLORado",
@@ -22,6 +44,17 @@
       "released_at": null,
       "release_notes": null,
       "firmware_url": "https://github.com/Chauvet-Pro/COLORADO1QUADTOUR/raw/main/firmware/V13_Colorado1QuadTourV2.zip"
+    },
+    "COLORADO1QUADZOOM": {
+      "unrival_id": null,
+      "family": "COLORado",
+      "aliases": [
+        "COLORADO1QUADZOOM"
+      ],
+      "firmware_version": null,
+      "released_at": null,
+      "release_notes": null,
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADO1QUADZOOM/raw/main/FIRMWARE/V22_11-21-22_1Quad%20ZOOM.zip"
     },
     "COLORADO1QUADZOOMV2": {
       "unrival_id": null,
@@ -232,6 +265,39 @@
       "release_notes": "Fixed a small bug",
       "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPANELQ40/raw/V1.4/firmware/V1.4.zip"
     },
+    "COLORado PXL Bar 16": {
+      "unrival_id": null,
+      "family": "COLORado",
+      "aliases": [
+        "COLORADOPXLBAR16"
+      ],
+      "firmware_version": "V1.251014",
+      "released_at": "2025-12-03T20:08:14Z",
+      "release_notes": "1. Add strobe refresh for each value change\r\n2. Fix the issue that in MA3 ArtNet mode with RDM on, the fixture will move randomly\r\n3. Webserver can now be accessed in any control mode",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLBAR16/raw/V1.251014/Firmware/A4073F-COLORADO%20PXL%20BAR%2016-V1.251014-251027-1.zip"
+    },
+    "COLORado PXL Bar 8": {
+      "unrival_id": null,
+      "family": "COLORado",
+      "aliases": [
+        "COLORADOPXLBAR8"
+      ],
+      "firmware_version": "V1.250911",
+      "released_at": "2025-09-29T15:40:48Z",
+      "release_notes": "1. Change the universe range of ArtNet to be 0--32767\r\n2. Change the way how universe is entered and confirmed.",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLBAR8/raw/V1.250911/FIRMWARE/V1.250911.zip"
+    },
+    "COLORado PXL Curve 1": {
+      "unrival_id": 2742,
+      "family": "COLORado",
+      "aliases": [
+        "COLORADOPXLCURVE1"
+      ],
+      "firmware_version": "V1.260724",
+      "released_at": "2026-07-24T21:26:56Z",
+      "release_notes": "Activates NFC functionality and conforms to the new display standard.",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLCURVE1/raw/V1.260724/Firmware/V1.00.003-260724-2.zip"
+    },
     "COLORado PXL Curve 12": {
       "unrival_id": null,
       "family": "COLORado",
@@ -242,6 +308,50 @@
       "released_at": "2026-05-05T15:31:13Z",
       "release_notes": "1. Added strobe refresh for each value change\r\n2. Fixed the issue that in MA3 ArtNet mode with RDM on, the fixture moved randomly\r\n3. ArtNet Universe range changed to max 32767\r\n4. Changed webserver to be accessed in any control mode\r\n5. If fixture is set to tilt invert, heads will randomly get stuck during reset.",
       "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLCURVE12/raw/V1.251029/firmware/V1.251029.zip"
+    },
+    "COLORado PXL Curve 5": {
+      "unrival_id": null,
+      "family": "COLORado",
+      "aliases": [
+        "COLORADOPXLCURVE5"
+      ],
+      "firmware_version": "V1.260210",
+      "released_at": "2026-05-05T16:14:28Z",
+      "release_notes": "Initial release version",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLCURVE5/raw/V1.260210/Firmware/V1.260210.zip"
+    },
+    "COLORado Solo Bar 1": {
+      "unrival_id": 2277,
+      "family": "COLORado",
+      "aliases": [
+        "COLORADOSOLOBAR1"
+      ],
+      "firmware_version": "V1.1.6",
+      "released_at": "2026-07-15T16:59:24Z",
+      "release_notes": "- Optimized dimming performance\r\n- Improved dimmer response\r\n- Fixed color shift issue when redshift is enabled\r\n- Fixed redshift effect being nearly identical regardless of color calibration on/off setting\r\n- Fixed Art-Net failure to reconnect after power cycle when universe is not set to 0\r\n- Added NFC functionality",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOSOLOBAR1/raw/V1.1.6/Firmware/V1.1.6.zip"
+    },
+    "COLORado Solo Bar 4": {
+      "unrival_id": 2278,
+      "family": "COLORado",
+      "aliases": [
+        "COLORADOSOLOBAR4"
+      ],
+      "firmware_version": "V1.1.6",
+      "released_at": "2026-07-15T17:04:35Z",
+      "release_notes": "- Optimized dimming performance\r\n- Improved dimmer response\r\n- Fixed color shift issue when redshift is enabled\r\n- Fixed redshift effect being nearly identical regardless of color calibration on/off setting\r\n- Fixed Art-Net failure to reconnect after power cycle when universe is not set to 0\r\n- Added NFC functionality",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOSOLOBAR4/raw/V1.1.6/Firmware/V1.1.6.zip"
+    },
+    "COLORado Solo Bar 6": {
+      "unrival_id": 2279,
+      "family": "COLORado",
+      "aliases": [
+        "COLORADOSOLOBAR6"
+      ],
+      "firmware_version": "V1.1.6",
+      "released_at": "2026-07-15T17:13:16Z",
+      "release_notes": "- Optimized dimming performance\r\n- Improved dimmer response\r\n- Fixed color shift issue when redshift is enabled\r\n- Fixed redshift effect being nearly identical regardless of color calibration on/off setting\r\n- Fixed Art-Net failure to reconnect after power cycle when universe is not set to 0\r\n- Added NFC functionality",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOSOLOBAR6/raw/V1.1.6/Firmware/V1.1.6.zip"
     },
     "COLORado Solo Batten": {
       "unrival_id": null,
@@ -265,6 +375,39 @@
       "release_notes": "Addressed IGMP subscription issues",
       "firmware_url": "https://github.com/Chauvet-Pro/COLORADOSOLOBATTEN4/raw/V2.240828/firmware/V2.240828.zip"
     },
+    "COLORado Solo Edge 1": {
+      "unrival_id": null,
+      "family": "COLORado",
+      "aliases": [
+        "COLORADOSOLOEDGE1"
+      ],
+      "firmware_version": "V1.0",
+      "released_at": "2026-01-29T17:40:11Z",
+      "release_notes": "Initial Software Release",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOSOLOEDGE1/raw/V1.0/Firmware/V1.0.zip"
+    },
+    "COLORado Solo Edge 3": {
+      "unrival_id": null,
+      "family": "COLORado",
+      "aliases": [
+        "COLORADOSOLOEDGE3"
+      ],
+      "firmware_version": "V1.0",
+      "released_at": "2026-01-29T17:59:12Z",
+      "release_notes": "Initial Software Release",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOSOLOEDGE3/raw/V1.0/Firmware/V1.0.zip"
+    },
+    "COLORado Solo Pod E": {
+      "unrival_id": null,
+      "family": "COLORado",
+      "aliases": [
+        "COLORADOSOLOPODE"
+      ],
+      "firmware_version": "V1.260330",
+      "released_at": "2026-04-02T15:22:06Z",
+      "release_notes": "Initial release software",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOSOLOPODE/raw/V1.260330/Firmware/V1.260330.zip"
+    },
     "COLORDASHACCENT3": {
       "unrival_id": null,
       "family": "COLORdash",
@@ -275,6 +418,17 @@
       "released_at": null,
       "release_notes": null,
       "firmware_url": "https://github.com/Chauvet-Pro/COLORDASHACCENT3/raw/main/firmware/V1_03-28-2020_ColordashAccent3.zip"
+    },
+    "COLORdash Accent 5X IP": {
+      "unrival_id": null,
+      "family": "COLORdash",
+      "aliases": [
+        "COLORDASHACCENT5XIP"
+      ],
+      "firmware_version": "V1.05",
+      "released_at": "2026-04-21T16:11:04Z",
+      "release_notes": "Initial software release",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORDASHACCENT5XIP/raw/V1.05/Firmware/V1.05.zip"
     },
     "COLORDASHACCENTQUAD": {
       "unrival_id": null,
@@ -364,6 +518,17 @@
       "release_notes": "Improved dimming",
       "firmware_url": "https://github.com/Chauvet-Pro/COLORDASHPARH18X/raw/V1.231201/firmware/V1.231201.zip"
     },
+    "COLORdash PAR H18XIP": {
+      "unrival_id": null,
+      "family": "COLORdash",
+      "aliases": [
+        "COLORDASHPARH18XIP"
+      ],
+      "firmware_version": "V1.231201",
+      "released_at": "2024-09-23T21:00:55Z",
+      "release_notes": "Improved dimming",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORDASHPARH18XIP/raw/V1.231201/Firmware/V1.231201.zip"
+    },
     "COLORDASHPARH7IP": {
       "unrival_id": null,
       "family": "COLORdash",
@@ -419,6 +584,39 @@
       "release_notes": null,
       "firmware_url": "https://github.com/Chauvet-Pro/COLORDASHPARQ12IP/raw/main/firmware/V1.1_ColordashParQuad12%20IP.zip"
     },
+    "Color STRIKE M": {
+      "unrival_id": null,
+      "family": null,
+      "aliases": [
+        "COLORSTRIKEMV2"
+      ],
+      "firmware_version": "V4.0.7",
+      "released_at": "2025-09-05T16:18:52Z",
+      "release_notes": "1. Added the 96CH mode\r\n2. When the plate priority is set to the pixels (channel 25 at 129-255), the values of the color masters (ch 10, 11, 12) are ignored completely and no longer act as an override\r\n3. The strobe channel can always affect the fixture even when on pixel priority",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORSTRIKEMV2/raw/V4.0.7/Firmware/V4_0_0_01-15-2024_Color%20Strike%20M.zip"
+    },
+    "Epix D4 IP Driver": {
+      "unrival_id": null,
+      "family": "EPIX",
+      "aliases": [
+        "EPIXD4IP"
+      ],
+      "firmware_version": "KLSTR_V1_1_4_Windows",
+      "released_at": "2026-05-12T16:15:49Z",
+      "release_notes": null,
+      "firmware_url": "https://github.com/Chauvet-Pro/EPIXD4IP/raw/KLSTR_V1_1_4_Windows/Firmware/EpixD4Ip_Firmware_260401.zip"
+    },
+    "EPIX DRIVE 2000 IP": {
+      "unrival_id": null,
+      "family": "EPIX",
+      "aliases": [
+        "EPIXDRIVE2000IP"
+      ],
+      "firmware_version": "V1.77",
+      "released_at": "2024-01-30T21:54:21Z",
+      "release_notes": "Webserver improvements",
+      "firmware_url": "https://github.com/Chauvet-Pro/EPIXDRIVE2000IP/raw/V1.77/Firmware/V1_77_01-30-2024_Epix%20Drive%202000%20IP.zip"
+    },
     "EPIXDRIVE642": {
       "unrival_id": null,
       "family": "EPIX",
@@ -429,6 +627,17 @@
       "released_at": null,
       "release_notes": null,
       "firmware_url": "https://github.com/Chauvet-Pro/EPIXDRIVE642/raw/main/firmware/V2.4.1_06-05-2015_Epix%20Drive%20642.zip"
+    },
+    "EPIX DRIVE 900": {
+      "unrival_id": null,
+      "family": "EPIX",
+      "aliases": [
+        "EPIXDRIVE900"
+      ],
+      "firmware_version": null,
+      "released_at": null,
+      "release_notes": null,
+      "firmware_url": "https://github.com/Chauvet-Pro/EPIXDRIVE900/raw/main/Firmware/V1_5_6-11-2020.zip"
     },
     "EPIXFLEXDRIVE": {
       "unrival_id": null,
@@ -518,6 +727,17 @@
       "release_notes": "Changed CMY to match with MK3 Profile",
       "firmware_url": "https://github.com/Chauvet-Pro/MAVERICKFORCE1SPOT/raw/V1.210520/firmware/V1.210520.zip"
     },
+    "Maverick Force 2 BeamWash": {
+      "unrival_id": null,
+      "family": "Maverick",
+      "aliases": [
+        "MAVERICKFORCE2BEAMWASH"
+      ],
+      "firmware_version": "V1.240826",
+      "released_at": "2025-01-13T15:03:35Z",
+      "release_notes": "Fixed minor bugs",
+      "firmware_url": "https://github.com/Chauvet-Pro/MAVERICKFORCE2BEAMWASH/raw/V1.240826/Firmware/V1.240826.zip"
+    },
     "MAVERICKFORCE2PROFILE": {
       "unrival_id": null,
       "family": "Maverick",
@@ -538,7 +758,7 @@
       "firmware_version": "V1.250225",
       "released_at": "2025-03-05T21:07:49Z",
       "release_notes": "Fix the bug that had shutter blades 1&2 travel differently than shutter 3&4\ufeff.",
-      "firmware_url": "https://github.com/Chauvet-Pro/MAVERICKFORCE3PROFILE/raw/V1.250225/firmware/V1_04-27-2023_Maverick%20Force%203%20Profile.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/MAVERICKFORCE3PROFILE/raw/V1.250225/firmware/A46D1X-FORCE3PROFILE-V1-250225-250303-1.zip"
     },
     "Maverick Force S Profile": {
       "unrival_id": null,
@@ -716,6 +936,17 @@
       "release_notes": "Fixes sACN IGMP issues",
       "firmware_url": "https://github.com/Chauvet-Pro/MAVERICKMKPYXIS/raw/V10.260331/firmware/V10.260331.zip"
     },
+    "Maverick Silens 1x Profile": {
+      "unrival_id": null,
+      "family": "Maverick",
+      "aliases": [
+        "MAVERICKSILENS1XPROFILE"
+      ],
+      "firmware_version": "V1.3",
+      "released_at": "2026-02-18T17:18:00Z",
+      "release_notes": "Updated pan/tilt speed channel and display",
+      "firmware_url": "https://github.com/Chauvet-Pro/MAVERICKSILENS1XPROFILE/raw/V1.3/Firmware/V1.3.zip"
+    },
     "MAVERICKSILENS2PROFILE": {
       "unrival_id": null,
       "family": "Maverick",
@@ -793,6 +1024,17 @@
       "release_notes": null,
       "firmware_url": "https://github.com/Chauvet-Pro/MAVERICKSTORM1WASH/raw/main/firmware/V3_08-31-2018_MKstorm1wash.zip"
     },
+    "Maverick Storm 2 BeamWash": {
+      "unrival_id": null,
+      "family": "Maverick",
+      "aliases": [
+        "MAVERICKSTORM2BEAMWASH"
+      ],
+      "firmware_version": "V1.250923",
+      "released_at": "2026-05-14T19:12:34Z",
+      "release_notes": "1. Fixed USB upload fail bug.\r\n2. Fixed Webserver upload fail bug.",
+      "firmware_url": "https://github.com/Chauvet-Pro/MAVERICKSTORM2BEAMWASH/raw/V1.250923/Firmware/V1.250923.zip"
+    },
     "Maverick Storm 2 Profile": {
       "unrival_id": null,
       "family": "Maverick",
@@ -815,6 +1057,28 @@
       "release_notes": "Fixed software uploading bug",
       "firmware_url": "https://github.com/Chauvet-Pro/MAVERICKSTORM2PROFILEM/raw/V1.240306/firmware/V1.240306.zip"
     },
+    "Maverick Storm 3 BeamWash": {
+      "unrival_id": null,
+      "family": "Maverick",
+      "aliases": [
+        "MAVERICKSTORM3BEAMWASH"
+      ],
+      "firmware_version": "V1.230822",
+      "released_at": "2024-01-19T15:38:31Z",
+      "release_notes": "Fixes RDM issues",
+      "firmware_url": "https://github.com/Chauvet-Pro/MAVERICKSTORM3BEAMWASH/raw/V1.230822/Firmware/A407CA-MAVERICK%20STORM%203%20BEAMWASH-V1.230822-230822-1.zip"
+    },
+    "Maverick Storm 3 BeamWash-2": {
+      "unrival_id": null,
+      "family": "Maverick",
+      "aliases": [
+        "MAVERICKSTORM3BEAMWASH-2"
+      ],
+      "firmware_version": "V1.250825",
+      "released_at": "2026-06-22T17:18:09Z",
+      "release_notes": "Fixed tilt motor shaking issue. Does not affect functionality",
+      "firmware_url": "https://github.com/Chauvet-Pro/MAVERICKSTORM3BEAMWASH-2/raw/V1.250825/Firmware/V1.250825.zip"
+    },
     "Maverick Storm 3 Profile": {
       "unrival_id": null,
       "family": "Maverick",
@@ -836,6 +1100,17 @@
       "released_at": "2026-05-19T19:09:20Z",
       "release_notes": "- Changed sACN universe range to 1-32000",
       "firmware_url": "https://github.com/Chauvet-Pro/MAVERICKSTORM4PROFILE/raw/V2.250828/firmware/V2.250828.zip"
+    },
+    "Maverick Storm 4 Solo Wash": {
+      "unrival_id": null,
+      "family": "Maverick",
+      "aliases": [
+        "MAVERICKSTORM4SOLOWASH"
+      ],
+      "firmware_version": "V1.240122",
+      "released_at": "2024-05-16T14:41:49Z",
+      "release_notes": "* Added Sky Tracker mode\r\n*  Fixed IGMP issue\r\n* Changed the text shutter in manual testing in Web server",
+      "firmware_url": "https://github.com/Chauvet-Pro/MAVERICKSTORM4SOLOWASH/raw/V1.240122/Firmware/V1.240122.zip"
     },
     "MVP18X6": {
       "unrival_id": null,
@@ -892,6 +1167,17 @@
       "release_notes": null,
       "firmware_url": "https://github.com/Chauvet-Pro/NEXUSAW7X7/raw/main/firmware/V1.5_Nexus%20AW7x7.zip"
     },
+    "ONAIR FLEX DRIVE 2": {
+      "unrival_id": null,
+      "family": "onAir",
+      "aliases": [
+        "ONAIRFLEXDRIVE2"
+      ],
+      "firmware_version": "V023_20260123",
+      "released_at": "2026-06-23T14:40:34Z",
+      "release_notes": "Stops occasional DMX mode loss errors",
+      "firmware_url": "https://github.com/Chauvet-Pro/ONAIRFLEXDRIVE2/raw/V023_20260123/Firmware/V18_3-1-2022.zip"
+    },
     "onAir Panel 1 IP": {
       "unrival_id": null,
       "family": "onAir",
@@ -913,6 +1199,17 @@
       "released_at": "2025-08-13T17:54:03Z",
       "release_notes": "1. Increased the sACN universe limit from 256 to 32,000\r\n2. Changed CCT jumps to 25\r\n3. Added the Dimmer control for the Effect Macros\r\n4. Eliminated the Start Address in the Ethernet Settings",
       "firmware_url": "https://github.com/Chauvet-Pro/ONAIRPANEL2IP/raw/V2.0.1/firmware/V2.0.1.zip"
+    },
+    "onAir Panel 3 IP": {
+      "unrival_id": null,
+      "family": "onAir",
+      "aliases": [
+        "ONAIRPANEL3IP"
+      ],
+      "firmware_version": null,
+      "released_at": null,
+      "release_notes": null,
+      "firmware_url": "https://github.com/Chauvet-Pro/ONAIRPANEL3IP/raw/main/Firmware/V1.240411.zip"
     },
     "ONAIRPANELMINIP": {
       "unrival_id": null,
@@ -989,7 +1286,7 @@
       "firmware_version": "V2.230803",
       "released_at": "2023-08-28T20:17:07Z",
       "release_notes": "Improved Dimming Performance",
-      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONCYC1FC/raw/V2.230803/firmware/V2_12-26-2022_OVATIONCYC1FC.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONCYC1FC/raw/V2.230803/firmware/Ovation%20Cyc%201-%20V2.230803.zip"
     },
     "OVATIONCYC3FC": {
       "unrival_id": null,
@@ -1000,7 +1297,7 @@
       "firmware_version": "V1.230804",
       "released_at": "2023-08-28T20:14:49Z",
       "release_notes": "Improved Dimming Performance",
-      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONCYC3FC/raw/V1.230804/firmware/V1_10-11-2022_OVATIONCYC3FC.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONCYC3FC/raw/V1.230804/firmware/Ovation%20Cyc%203-V1.230804.zip"
     },
     "Ovation E-160WW": {
       "unrival_id": null,
@@ -1078,6 +1375,17 @@
       "released_at": "2023-12-04T20:04:16Z",
       "release_notes": "Released version",
       "firmware_url": "https://github.com/Chauvet-Pro/OVATIONE4WWIP/raw/V1.230610/firmware/V1_230610_12-04-2023_Ovation%20E-4WW%20IP.zip"
+    },
+    "Ovation E-910FC": {
+      "unrival_id": null,
+      "family": "Ovation",
+      "aliases": [
+        "OVATIONE910FC"
+      ],
+      "firmware_version": "V3.3.0",
+      "released_at": "2024-09-10T20:16:41Z",
+      "release_notes": "NOTE: This software update is for the -2 version of the fixture, but is also backwards compatible and can be used with the original version.\r\n* Updated to expand UID range for \"-2\" fixtures\r\n* Converted software file name to new version numbering scheme",
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONE910FC/raw/V3.3.0/Firmware/V3.3.0.zip"
     },
     "OVATIONE910FCIP": {
       "unrival_id": null,
@@ -1343,6 +1651,28 @@
       "release_notes": null,
       "firmware_url": "https://github.com/Chauvet-Pro/OVATIONH605FCBLK/raw/main/firmware/V2_06-14-2022_OvationH-605FC.zip"
     },
+    "Ovation P-56FC": {
+      "unrival_id": null,
+      "family": "Ovation",
+      "aliases": [
+        "OVATIONP56FC"
+      ],
+      "firmware_version": "V2.220826",
+      "released_at": "2024-07-30T17:35:31Z",
+      "release_notes": "Added X-Fade feature",
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONP56FC/raw/V2.220826/Firmware/V2.220826.zip"
+    },
+    "Ovation P-56FC-2": {
+      "unrival_id": null,
+      "family": "Ovation",
+      "aliases": [
+        "OVATIONP56FC-2"
+      ],
+      "firmware_version": "V1.0.0",
+      "released_at": "2024-07-30T17:46:31Z",
+      "release_notes": "Released software version",
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONP56FC-2/raw/V1.0.0/Firmware/V1.0.0.zip"
+    },
     "OVATIONP56UV": {
       "unrival_id": null,
       "family": "Ovation",
@@ -1364,6 +1694,28 @@
       "released_at": null,
       "release_notes": null,
       "firmware_url": "https://github.com/Chauvet-Pro/OVATIONP56VW/raw/main/firmware/V2_09-06-2021_Ovation%20P-56VW.zip"
+    },
+    "Ovation P-56WW": {
+      "unrival_id": null,
+      "family": "Ovation",
+      "aliases": [
+        "OVATIONP56WW"
+      ],
+      "firmware_version": "V2.210612",
+      "released_at": "2024-07-30T18:23:11Z",
+      "release_notes": "Updated UID",
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONP56WW/raw/V2.210612/Firmware/V2.210612.zip"
+    },
+    "Ovation P-56WW2": {
+      "unrival_id": null,
+      "family": "Ovation",
+      "aliases": [
+        "OVATIONP56WW-2"
+      ],
+      "firmware_version": "V1.0.3",
+      "released_at": "2024-07-30T18:13:01Z",
+      "release_notes": "Updated UID",
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONP56WW-2/raw/V1.0.3/Firmware/V1.0.3.zip"
     },
     "Ovation R\u00eave E-3": {
       "unrival_id": null,
@@ -1397,6 +1749,17 @@
       "released_at": "2026-02-10T20:22:19Z",
       "release_notes": "Improved fan speed ramping performance in fan auto mode for better noise performance",
       "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEF3/raw/V1.2/firmware/V1.2.zip"
+    },
+    "Ovation R\u00eave F-3 IP": {
+      "unrival_id": null,
+      "family": "Ovation",
+      "aliases": [
+        "OVATIONREVEF3IP"
+      ],
+      "firmware_version": "V1.0.2",
+      "released_at": "2024-11-18T17:39:40Z",
+      "release_notes": "Improved fan stability in silent mode",
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEF3IP/raw/V1.0.2/Firmware/V1.0.2_11-18-24.zip"
     },
     "Ovation R\u00eave P-3 IP": {
       "unrival_id": null,
@@ -1453,6 +1816,17 @@
       "release_notes": "Fixes color shift when RGBW changes from 0 to 255 all together.\r\nDeletes custom white mode option in menu, changes 232-239 in control channel to reserved.",
       "firmware_url": "https://github.com/Chauvet-Pro/ROGUEOUTCAST1BEAMWASH/raw/V1.251216/firmware/V1.251216.zip"
     },
+    "Rogue Outcast 1 Beam Wash M": {
+      "unrival_id": null,
+      "family": "Rogue",
+      "aliases": [
+        "ROGUEOUTCAST1BWM"
+      ],
+      "firmware_version": "V1.241205",
+      "released_at": "2026-05-22T16:48:55Z",
+      "release_notes": "Updated model ID and RDM UID.",
+      "firmware_url": "https://github.com/Chauvet-Pro/ROGUEOUTCAST1BWM/raw/V1.241205/Firmware/V1.241205.zip"
+    },
     "ROGUEOUTCAST1HYBRID": {
       "unrival_id": null,
       "family": "Rogue",
@@ -1473,7 +1847,18 @@
       "firmware_version": "V1.241125",
       "released_at": "2025-04-01T18:17:36Z",
       "release_notes": "Add 2 steps standalone program",
-      "firmware_url": "https://github.com/Chauvet-Pro/ROGUEOUTCAST1LBEAM/raw/V1.241125/firmware/V1_03-11-2022_A4078A-ROGUE%20OUTCAST%201L%20BEAM.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/ROGUEOUTCAST1LBEAM/raw/V1.241125/firmware/V1.241125.zip"
+    },
+    "Rogue Outcast 1M Beam": {
+      "unrival_id": null,
+      "family": "Rogue",
+      "aliases": [
+        "ROGUEOUTCAST1MBEAM"
+      ],
+      "firmware_version": "V1.241125",
+      "released_at": "2025-04-01T18:23:38Z",
+      "release_notes": "Add 2 steps standalone program",
+      "firmware_url": "https://github.com/Chauvet-Pro/ROGUEOUTCAST1MBEAM/raw/V1.241125/Firmware/V1.241125.zip"
     },
     "Rogue Outcast 2 Beam": {
       "unrival_id": null,
@@ -1506,7 +1891,7 @@
       "firmware_version": "V1.260610",
       "released_at": "2026-07-28T19:53:19Z",
       "release_notes": "Added CTC preset to color macro",
-      "firmware_url": "https://github.com/Chauvet-Pro/ROGUEOUTCAST2XWASH/raw/V1.260610/firmware/V1_11-15-2022_A4078F-RogueOutcast2XWash.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/ROGUEOUTCAST2XWASH/raw/V1.260610/firmware/V1.260610.zip"
     },
     "Rogue Outcast 3 Spot": {
       "unrival_id": null,
@@ -1519,6 +1904,28 @@
       "release_notes": "Added standalone menu",
       "firmware_url": "https://github.com/Chauvet-Pro/ROGUEOUTCAST3SPOT/raw/V1.241025/firmware/V1.241025.zip"
     },
+    "Rogue Outcast 3 Spot -2": {
+      "unrival_id": null,
+      "family": "Rogue",
+      "aliases": [
+        "ROGUEOUTCAST3SPOT-2"
+      ],
+      "firmware_version": "V1.260519",
+      "released_at": "2026-08-14T14:50:53Z",
+      "release_notes": "Improved zoom and frost moving logic to prevent collision in fixtures",
+      "firmware_url": "https://github.com/Chauvet-Pro/ROGUEOUTCAST3SPOT-2/raw/V1.260519/Firmware/V1.260519.zip"
+    },
+    "Rogue Outcast 3X Wash": {
+      "unrival_id": null,
+      "family": "Rogue",
+      "aliases": [
+        "ROGUEOUTCAST3XWASH"
+      ],
+      "firmware_version": "V1.250206",
+      "released_at": "2026-06-22T15:02:20Z",
+      "release_notes": "Added 28 channel mode",
+      "firmware_url": "https://github.com/Chauvet-Pro/ROGUEOUTCAST3XWASH/raw/V1.250206/Firmware/V1.250206.zip"
+    },
     "ROGUER1BEAM": {
       "unrival_id": null,
       "family": "Rogue",
@@ -1529,6 +1936,28 @@
       "released_at": null,
       "release_notes": null,
       "firmware_url": "https://github.com/Chauvet-Pro/ROGUER1BEAM/raw/main/firmware/V3_05-19-2015_ROGUER1BEAM.zip"
+    },
+    "Rogue R1 BeamWash": {
+      "unrival_id": null,
+      "family": "Rogue",
+      "aliases": [
+        "ROGUER1BEAMWASH"
+      ],
+      "firmware_version": "V1.241226",
+      "released_at": "2025-04-01T18:42:04Z",
+      "release_notes": "No new features or performance enhancements were added. This update is for internal use only",
+      "firmware_url": "https://github.com/Chauvet-Pro/ROGUER1BEAMWASH/raw/V1.241226/Firmware/V1.241226.zip"
+    },
+    "Rogue R1E Spot": {
+      "unrival_id": null,
+      "family": "Rogue",
+      "aliases": [
+        "ROGUER1ESPOT"
+      ],
+      "firmware_version": "V1.241206",
+      "released_at": "2025-03-20T15:28:28Z",
+      "release_notes": "No new features or performance enhancements were added. This update is for internal use only.",
+      "firmware_url": "https://github.com/Chauvet-Pro/ROGUER1ESPOT/raw/V1.241206/Firmware/V1.241206.zip"
     },
     "ROGUER1FXB": {
       "unrival_id": null,
@@ -1671,7 +2100,7 @@
       "firmware_version": "V1.250710",
       "released_at": "2025-07-14T16:23:22Z",
       "release_notes": "Fix the issue that fixtures will be uncontrollable via NET-X II",
-      "firmware_url": "https://github.com/Chauvet-Pro/ROGUER2XWASHVW/raw/V1.250710/firmware/V1_12-19-2019_R2XVW.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/ROGUER2XWASHVW/raw/V1.250710/firmware/V1.250710.zip"
     },
     "Rogue R3 Beam": {
       "unrival_id": null,
@@ -1748,7 +2177,7 @@
       "firmware_version": "V1.230817",
       "released_at": "2023-08-25T14:41:28Z",
       "release_notes": "New Mode with Independent Amber Control",
-      "firmware_url": "https://github.com/Chauvet-Pro/STRIKE1/raw/V1.230817/firmware/V1_06-03-2021_STRIKE1.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/STRIKE1/raw/V1.230817/firmware/STRIKE%201-V1.230817.zip"
     },
     "STRIKE4": {
       "unrival_id": null,
@@ -1772,6 +2201,17 @@
       "release_notes": null,
       "firmware_url": "https://github.com/Chauvet-Pro/STRIKE882/raw/main/firmware/V1.3_STRIKE882.zip"
     },
+    "STRIKE Array 1": {
+      "unrival_id": null,
+      "family": "STRIKE",
+      "aliases": [
+        "STRIKEARRAY1"
+      ],
+      "firmware_version": "V1.0.5",
+      "released_at": "2025-10-17T18:49:54Z",
+      "release_notes": "1. Increased the ArtNet universe range to: 0 - 32767, and the sACN universe range to: 1 - 32000.\r\n2. Removed the Starting Address from the Ethernet Settings.\r\n3. Fixed the issue that when connecting to sACN, erroneous message appears: fixture is Leaving group, re-subscribe.\r\n4. Changed the message to \u201cmax of 8 pods per drive exceeded\u201d when more than 8 pods are detected.\r\n5. Added message of \"max of 7 pods per port exceeded \" when one port detects over 7 pods.\r\n6. Fixed DMX addressing bug, UID, and hours reset caused by network upgrade failure.\r\n7. In the router, client list and fixture name will be displayed instead of fixture MAC Address.",
+      "firmware_url": "https://github.com/Chauvet-Pro/STRIKEARRAY1/raw/V1.0.5/Firmware/V1.0.4.zip"
+    },
     "STRIKE Array 2": {
       "unrival_id": null,
       "family": "STRIKE",
@@ -1783,6 +2223,17 @@
       "release_notes": "Updated RDM PIDs",
       "firmware_url": "https://github.com/Chauvet-Pro/STRIKEARRAY2/raw/V1.3.0/firmware/V1.3.0.zip"
     },
+    "STRIKE Array 2C": {
+      "unrival_id": null,
+      "family": "STRIKE",
+      "aliases": [
+        "STRIKEARRAY2C"
+      ],
+      "firmware_version": "V1.0.5",
+      "released_at": "2025-08-12T14:59:50Z",
+      "release_notes": "1. Revised the DRV FLASH clock wait cycles\r\n2. Fixed the backup battery indicator icon appearance inconsistencies\r\n3. Changed the firmware revision (V1.0) shown via ArtRDM\r\n4. Optimized the red shift effect at 25CH mode with various PWM combinations",
+      "firmware_url": "https://github.com/Chauvet-Pro/STRIKEARRAY2C/raw/V1.0.5/Firmware/V1.0.5.zip"
+    },
     "STRIKE Array 4": {
       "unrival_id": null,
       "family": "STRIKE",
@@ -1793,6 +2244,28 @@
       "released_at": "2024-08-27T20:28:58Z",
       "release_notes": "Updated RDM PIDs",
       "firmware_url": "https://github.com/Chauvet-Pro/STRIKEARRAY4/raw/V1.3.0/firmware/V1.3.0.zip"
+    },
+    "STRIKE Array 4C": {
+      "unrival_id": null,
+      "family": "STRIKE",
+      "aliases": [
+        "STRIKEARRAY4C"
+      ],
+      "firmware_version": "V1.0.5",
+      "released_at": "2025-08-12T15:11:59Z",
+      "release_notes": "1. Revised the DRV FLASH clock wait cycles\r\n2. Fixed the backup battery indicator icon appearance inconsistencies\r\n3. Changed the firmware revision (V1.0) shown via ArtRDM\r\n4. Optimized the red shift effect at 25CH mode with various PWM combinations",
+      "firmware_url": "https://github.com/Chauvet-Pro/STRIKEARRAY4C/raw/V1.0.5/Firmware/V1.0.5_08-12-25.zip"
+    },
+    "STRIKE Array Ultra": {
+      "unrival_id": null,
+      "family": "STRIKE",
+      "aliases": [
+        "STRIKEARRAYULTRA"
+      ],
+      "firmware_version": "V1.0.6",
+      "released_at": "2026-08-10T14:31:38Z",
+      "release_notes": "Fixed network bug from previous version",
+      "firmware_url": "https://github.com/Chauvet-Pro/STRIKEARRAYULTRA/raw/V1.0.6/Firmware/V1.0.zip"
     },
     "STRIKE Bolt 1C": {
       "unrival_id": null,
@@ -1814,7 +2287,7 @@
       "firmware_version": "V1.230817",
       "released_at": "2023-08-25T14:43:08Z",
       "release_notes": "New Mode with Independent Amber Control",
-      "firmware_url": "https://github.com/Chauvet-Pro/STRIKEP38/raw/V1.230817/firmware/V1_06-03-2021_StrikeP38.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/STRIKEP38/raw/V1.230817/firmware/Strike%20P38-V1.230817.zip"
     },
     "STRIKESABER": {
       "unrival_id": null,
@@ -1838,6 +2311,17 @@
       "release_notes": "Added 10Ch mode",
       "firmware_url": "https://github.com/Chauvet-Pro/STRIKESABER10/raw/V1.1/firmware/V1.1.zip"
     },
+    "STRIKEV": {
+      "unrival_id": null,
+      "family": "STRIKE",
+      "aliases": [
+        "STRIKEV"
+      ],
+      "firmware_version": "V1.1",
+      "released_at": "2026-03-27T14:54:44Z",
+      "release_notes": "1. Solved the issue that when only a partial selection of LEDs is active, they will fade out.\r\n\r\n2. Made the \"Clear All Data\" option active only when connected to the power cord.",
+      "firmware_url": "https://github.com/Chauvet-Pro/STRIKEV/raw/V1.1/Firmware/V1.1.zip"
+    },
     "SYNAPSE4": {
       "unrival_id": null,
       "family": "Synapse",
@@ -1849,6 +2333,17 @@
       "release_notes": null,
       "firmware_url": "https://github.com/Chauvet-Pro/SYNAPSE4/raw/main/firmware/V1.2_Synapse%204.zip"
     },
+    "Test": {
+      "unrival_id": null,
+      "family": null,
+      "aliases": [
+        "Test"
+      ],
+      "firmware_version": "Firmware",
+      "released_at": "2025-09-16T16:18:37Z",
+      "release_notes": "dslkjfslxdkjf",
+      "firmware_url": "https://github.com/Chauvet-Pro/Test/raw/Firmware/Firmware/V1.2.1_2025-9-16.py.zip"
+    },
     "UPLOAD03": {
       "unrival_id": null,
       "family": null,
@@ -1859,6 +2354,28 @@
       "released_at": null,
       "release_notes": null,
       "firmware_url": "https://github.com/Chauvet-Pro/UPLOAD03/raw/main/firmware/V1.0_Upload%2003%20Setup.zip"
+    },
+    "UPLOAD 08": {
+      "unrival_id": null,
+      "family": null,
+      "aliases": [
+        "UPLOAD08"
+      ],
+      "firmware_version": "V2.0",
+      "released_at": "2024-06-25T13:30:44Z",
+      "release_notes": "Added support for CHL file extension",
+      "firmware_url": "https://github.com/Chauvet-Pro/UPLOAD08/raw/V2.0/Firmware/V2.0.zip"
+    },
+    "VIP DRIVE 83R NOVA": {
+      "unrival_id": null,
+      "family": null,
+      "aliases": [
+        "VIPDRIVE83RNOVA"
+      ],
+      "firmware_version": null,
+      "released_at": null,
+      "release_notes": null,
+      "firmware_url": "https://github.com/Chauvet-Pro/VIPDRIVE83RNOVA/raw/main/Firmware/V1_0_2_10-19-2021.zip"
     },
     "WELLBATTEN14": {
       "unrival_id": null,
@@ -1979,7 +2496,7 @@
       "firmware_version": "V2.250304",
       "released_at": "2025-03-18T20:22:29Z",
       "release_notes": "Fixes menu bug to allow numerical values to run up and down in accordance with the up and down buttons",
-      "firmware_url": "https://github.com/Chauvet-Pro/WELLSTX180X6/raw/V2.250304/firmware/V2_7-18-2023_Well%20Stx%20180.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/WELLSTX180X6/raw/V2.250304/firmware/V2.250304.zip"
     },
     "WELLSTX360X4": {
       "unrival_id": null,
