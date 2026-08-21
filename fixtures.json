@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -1723,10 +1723,10 @@
       "aliases": [
         "OVATIONREVEE3"
       ],
-      "firmware_version": "V1.3.0",
-      "released_at": "2024-06-03T20:33:13Z",
+      "firmware_version": "V1.3.03",
+      "released_at": "2026-08-21T16:12:24Z",
       "release_notes": "Improved low-end dimming performance",
-      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEE3/raw/V1.3.0/firmware/V1.3.0_06-03-24.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEE3/raw/V1.3.03/firmware/V1.3.0_06-03-24.zip"
     },
     "Ovation R\u00eave E-3 IP": {
       "unrival_id": null,
