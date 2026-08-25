@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -1209,7 +1209,7 @@
       "firmware_version": null,
       "released_at": null,
       "release_notes": null,
-      "firmware_url": "https://github.com/Chauvet-Pro/ONAIRPANEL3IP/raw/main/Firmware/V1.240411.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/ONAIRPANEL3IP/raw/main/firmware/V1240411.zip"
     },
     "ONAIRPANELMINIP": {
       "unrival_id": null,
