@@ -1,5 +1,5 @@
 {
- "version": 7,
+ "version": 8,
  "products": [
    {
      "deviceModelId": 2038,
@@ -18,7 +18,7 @@
        "weight": "7.2 lb (3.3 kg)",
        "powerConnection": "Seetronic PowerKon IP65",
        "dataConnectors": "5-pin XLR",
-       "inputVoltage": "00 to 240 VAC, 50/60 Hz (auto-ranging)",
+       "inputVoltage": "100 to 240 VAC, 50/60 Hz (auto-ranging)",
        "autoRanging": true,
        "powerandCurrent120V": "43 W, .35 A @ 120 V, 60 Hz",
        "powerandCurrent208V": "47 W, .23 A @ 208 V, 60 Hz",
@@ -250,7 +250,7 @@
     "website": null,
     "blurb": null,
     "specs": {
-      "lightSource": "85 LEDs ((14 red, 10 green, 11 blue, 4 cyan, 20 amber, 26 mint)",
+      "lightSource": "85 LEDs (14 red, 10 green, 11 blue, 4 cyan, 20 amber, 26 mint)",
       "colorTemperature": null,
       "lumens": "Over 16,700",
       "cri": "90+",
