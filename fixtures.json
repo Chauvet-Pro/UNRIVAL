@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -310,7 +310,7 @@
       "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLCURVE12/raw/V1.251029/firmware/V1.251029.zip"
     },
     "COLORado PXL Curve 5": {
-      "unrival_id": null,
+      "unrival_id": 2782,
       "family": "COLORado",
       "aliases": [
         "COLORADOPXLCURVE5"
