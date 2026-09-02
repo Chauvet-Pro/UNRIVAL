@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -2466,7 +2466,7 @@
       "firmware_url": "https://github.com/Chauvet-Pro/WELLPANELX/raw/V1.0.3/firmware/V1.0.3.zip"
     },
     "WELLPOD2": {
-      "unrival_id": null,
+      "unrival_id": 2038,
       "family": "WELL",
       "aliases": [
         "WELLPOD2"
