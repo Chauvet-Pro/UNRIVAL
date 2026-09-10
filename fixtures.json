@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -271,10 +271,10 @@
       "aliases": [
         "COLORADOPXLBAR16"
       ],
-      "firmware_version": "V1.251014",
-      "released_at": "2025-12-03T20:08:14Z",
-      "release_notes": "1. Add strobe refresh for each value change\r\n2. Fix the issue that in MA3 ArtNet mode with RDM on, the fixture will move randomly\r\n3. Webserver can now be accessed in any control mode",
-      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLBAR16/raw/V1.251014/Firmware/A4073F-COLORADO%20PXL%20BAR%2016-V1.251014-251027-1.zip"
+      "firmware_version": "V1.260709",
+      "released_at": "2026-09-10T13:23:16Z",
+      "release_notes": "Improved voltage fluctuations to increase fixture stability and reliability. Please update all units as soon as possible.",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLBAR16/raw/V1.260709/Firmware/V1.260709.zip"
     },
     "COLORado PXL Bar 8": {
       "unrival_id": null,
