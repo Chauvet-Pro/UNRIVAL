@@ -1,5 +1,5 @@
 {
- "version": 8,
+ "version": 9,
  "products": [
    {
      "deviceModelId": 2038,
@@ -263,6 +263,36 @@
       "powerandCurrent120V": "1150 W, 9.56 A @ 120 V, 60 Hz",
       "powerandCurrent208V": "1116 W, 5.45 A @ 208 V, 60 Hz",
       "powerandCurrent230V": "1111 W, 4.91 A @ 230 V, 50 Hz"
+    },
+    "downloads": {
+      "userManual": null,
+      "photometrics": null,
+      "dmxChart": null,
+      "acousticReport": null
+    }
+  },
+  {
+    "deviceModelId": 2633,
+    "family": "Ovation",
+    "name": "Ovation Reve 3 Wash Fresnel",
+    "new": true,
+    "dateAdded": "2026-09-01",
+    "website": null,
+    "blurb": null,
+    "specs": {
+      "lightSource": "1 LEDs (RGBCAM)",
+      "colorTemperature": null,
+      "lumens": "Over 18,400",
+      "cri": "90+",
+      "dimensions": "16.14 x 11.02 x 28.18 in (410 x 280 x 716 mm)",
+      "weight": "68.8 lb (31.2 kg)",
+      "powerConnection": "Seetronic Powerkon IP65",
+      "dataConnectors": "5-pin XLR, Amphenol XLR Net RJ45 connectors in/out",
+      "inputVoltage": null,
+      "autoRanging": true,
+      "powerandCurrent120V": "1229 W, 10.26 A @ 120 V, 60 Hz",
+      "powerandCurrent208V": "1194 W, 5.87 A @ 208 V, 60 Hz",
+      "powerandCurrent230V": "1190 W, 5.36 A @ 230 V, 50 Hz"
     },
     "downloads": {
       "userManual": null,
@@ -574,15 +604,15 @@
   {
     "deviceModelId": 2813,
     "family": "Ovation",
-    "name": "Ovation Reve 3 Wash Fresnel",
+    "name": "Ovation Reve 3 Wash PC",
     "new": true,
-    "dateAdded": "2026-09-01",
+    "dateAdded": "2026-09-24",
     "website": null,
     "blurb": null,
     "specs": {
       "lightSource": "1 LEDs (RGBCAM)",
       "colorTemperature": null,
-      "lumens": "Over 18,400",
+      "lumens": "Over 14,300",
       "cri": "90+",
       "dimensions": "16.14 x 11.02 x 28.18 in (410 x 280 x 716 mm)",
       "weight": "68.8 lb (31.2 kg)",
