@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -2387,17 +2387,6 @@
       "released_at": "2025-06-03T15:05:07Z",
       "release_notes": "Fixes the preset color issue with the RF remote",
       "firmware_url": "https://github.com/Chauvet-Pro/WELLBATTEN14/raw/V1.0.4/firmware/V1.0.4.zip"
-    },
-    "WELLCONNECT": {
-      "unrival_id": null,
-      "family": "WELL",
-      "aliases": [
-        "WELLCONNECT"
-      ],
-      "firmware_version": null,
-      "released_at": null,
-      "release_notes": null,
-      "firmware_url": "https://github.com/Chauvet-Pro/WELLCONNECT/raw/main/firmware/well_connect_firmware_v4.1_latest.zip"
     },
     "WELL Fit X": {
       "unrival_id": null,

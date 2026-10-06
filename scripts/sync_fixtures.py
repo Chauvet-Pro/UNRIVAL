@@ -48,6 +48,9 @@ def public_repos():
         page += 1
 
 
+# Public repos with a firmware/ folder that aren't fixtures.
+NOT_FIXTURES = {"WELLCONNECT"}  # wireless DMX box with its own app
+
 FAMILIES = ["COLORado", "COLORdash", "Maverick", "Ovation", "Rogue", "STRIKE", "WELL",
             "EPIX", "onAir", "Nexus", "Legend", "MVP", "NET-X", "PVP", "Synapse"]
 
@@ -120,6 +123,8 @@ def build():
     fixtures = {}
     for r in sorted(public_repos(), key=lambda r: r["name"]):
         name = r["name"]
+        if name in NOT_FIXTURES:
+            continue
         release = api(f"/repos/{ORG}/{name}/releases/latest")
         ref = release["tag_name"] if release else r["default_branch"]
         quoted_ref = urllib.parse.quote(ref)
