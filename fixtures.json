@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -315,10 +315,10 @@
       "aliases": [
         "COLORADOPXLCURVE5"
       ],
-      "firmware_version": "V1.260210",
-      "released_at": "2026-05-05T16:14:28Z",
-      "release_notes": "Initial release version",
-      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLCURVE5/raw/V1.260210/Firmware/V1.260210.zip"
+      "firmware_version": "V1.00.006",
+      "released_at": "2026-10-07T21:19:10Z",
+      "release_notes": "Enables NFC Functions\r\nUpdates Strobe Features to improve performance\r\nThermal Information Update",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLCURVE5/raw/V1.00.006/Firmware/V1.260210.zip"
     },
     "COLORado Solo Bar 1": {
       "unrival_id": 2277,
