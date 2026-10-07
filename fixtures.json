@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -293,10 +293,10 @@
       "aliases": [
         "COLORADOPXLCURVE1"
       ],
-      "firmware_version": "V1.260724",
-      "released_at": "2026-07-24T21:26:56Z",
-      "release_notes": "Activates NFC functionality and conforms to the new display standard.",
-      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLCURVE1/raw/V1.260724/Firmware/V1.00.003-260724-2.zip"
+      "firmware_version": "V1.00.011",
+      "released_at": "2026-10-07T21:26:30Z",
+      "release_notes": "Enables NFC Functions\r\nUpdates Strobe Features to improve performance\r\nThermal Information Update",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLCURVE1/raw/V1.00.011/Firmware/V1.260319.zip"
     },
     "COLORado PXL Curve 12": {
       "unrival_id": null,
