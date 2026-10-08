@@ -23,10 +23,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit if changed
         run: |
-          git diff --quiet fixtures.json && echo "no change" && exit 0
+          git diff --quiet fixtures.json README.md && echo "no change" && exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Sync fixtures.json with latest firmware releases"
+          git commit -am "Sync fixtures.json and README with latest firmware releases"
           git push
       # New public firmware repos land in fixtures.json above; give them the
       # release hook so they report in themselves from then on.

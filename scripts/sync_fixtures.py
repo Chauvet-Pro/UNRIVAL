@@ -6,7 +6,8 @@ newest .zip in that directory, pinned to the latest release tag when the repo
 has releases (otherwise the default branch).
 
 Hand-edited unrival_id / aliases are preserved. Writes only when something
-changed, and bumps the top-level version when it does.
+changed, and bumps the top-level version when it does. Also refreshes the
+firmware links in README.md's fixture tables (the rows themselves stay hand-edited).
 
 Env: GITHUB_TOKEN (optional locally, provided by Actions).
 """
@@ -84,6 +85,10 @@ def pick_latest(names, tag=None):
     zips = sorted(n for n in names if n.lower().endswith(".zip"))
     if not zips:
         return None
+    # A zip named exactly after the release tag is the release's own build.
+    named = [n for n in zips if tag and n.lower() == f"{tag.lower()}.zip"]
+    if named:
+        return named[0]
     stamp = build_date(tag or "")
     if stamp:
         dated = [n for n in zips if build_date(n) == stamp]
@@ -151,6 +156,27 @@ def build():
     return fixtures
 
 
+README = os.path.join(os.path.dirname(__file__), os.pardir, "README.md")
+ROW = re.compile(r"^(\|\s*)([^|]+?)(\s*\|\s*)\[[^\]]*\]\([^)]*\)(\s*\|)\s*$")
+
+
+def refresh_readme(text, fixtures):
+    """Point every `| Fixture | [version](url) |` row at the fixture's latest firmware.
+
+    Which fixtures the README lists stays hand-edited; only the links move.
+    Rows whose fixture isn't in fixtures.json, or has no release, are left alone.
+    """
+    by_name = {norm(k): v for k, v in fixtures.items()}
+    out = []
+    for line in text.split("\n"):
+        m = ROW.match(line)
+        fw = m and by_name.get(norm(m.group(2)))
+        if fw and fw.get("firmware_version") and fw.get("firmware_url"):
+            line = f"{m.group(1)}{m.group(2)}{m.group(3)}[{fw['firmware_version']}]({fw['firmware_url']}){m.group(4)}"
+        out.append(line)
+    return "\n".join(out)
+
+
 def selftest():
     assert pick_latest(["V1.250813.zip", "V1.260609.zip", "README.md"]) == "V1.260609.zip"
     assert pick_latest(["README.md"]) is None
@@ -159,6 +185,13 @@ def selftest():
     assert pick_latest(mixed, "V1.260724") == "V1.00.003-260724-2.zip"
     assert pick_latest(mixed) == "V1.260319.zip"          # no tag -> unchanged
     assert pick_latest(mixed, "V1.231011") == "V1.260319.zip"  # tag matches nothing -> unchanged
+    # A zip named after the tag wins over the date-sorted ones.
+    curve = ["V1.00.003-260724-2.zip", "V1.00.011.zip", "V1.260210.zip", "V1.260319.zip"]
+    assert pick_latest(curve, "V1.00.011") == "V1.00.011.zip"
+    fx = {"COLORado PXL Curve 1": {"firmware_version": "V2", "firmware_url": "https://x/V2.zip"}}
+    md = "| Fixture | Firmware |\n| COLORado PXL Curve 1 | [V1](https://x/V1.zip) |\n| Unknown | [V9](u) |"
+    assert refresh_readme(md, fx) == ("| Fixture | Firmware |\n| COLORado PXL Curve 1 | [V2](https://x/V2.zip) |"
+                                      "\n| Unknown | [V9](u) |")
     assert build_date("A4073F-COLORADO PXL BAR 16-V1.251014-251027-1.zip") == "251014"
     assert build_date("V1.1.6.zip") is None
     assert family_of("COLORdash Par H7X IP", "COLORDASHPARH7XIP") == "COLORdash"
@@ -184,6 +217,11 @@ def main():
 
     old = json.load(open(OUT)) if os.path.exists(OUT) else {"version": 0, "fixtures": {}}
     fixtures = {k: merge(old["fixtures"].get(k), v) for k, v in build().items()}
+    readme = open(README).read()
+    fresh = refresh_readme(readme, fixtures)
+    if fresh != readme:
+        open(README, "w").write(fresh)
+        print("README.md firmware links refreshed")
     if fixtures == old["fixtures"]:
         print(f"no change ({len(fixtures)} fixtures)")
         return

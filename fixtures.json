@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -10,7 +10,7 @@
       "firmware_version": "V1.1",
       "released_at": "2026-02-05T22:05:01Z",
       "release_notes": "Added fluid sensor status to the home screen",
-      "firmware_url": "https://github.com/Chauvet-Pro/AMHAZESTADIUM2XIP/raw/V1.1/Firmware/V1.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/AMHAZESTADIUM2XIP/raw/V1.1/Firmware/V1.1.zip"
     },
     "COLORADO1QS": {
       "unrival_id": null,
@@ -296,7 +296,7 @@
       "firmware_version": "V1.00.011",
       "released_at": "2026-10-07T21:26:30Z",
       "release_notes": "Enables NFC Functions\r\nUpdates Strobe Features to improve performance\r\nThermal Information Update",
-      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLCURVE1/raw/V1.00.011/Firmware/V1.260319.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLCURVE1/raw/V1.00.011/Firmware/V1.00.011.zip"
     },
     "COLORado PXL Curve 12": {
       "unrival_id": null,
@@ -318,7 +318,7 @@
       "firmware_version": "V1.00.006",
       "released_at": "2026-10-07T21:19:10Z",
       "release_notes": "Enables NFC Functions\r\nUpdates Strobe Features to improve performance\r\nThermal Information Update",
-      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLCURVE5/raw/V1.00.006/Firmware/V1.260210.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORADOPXLCURVE5/raw/V1.00.006/Firmware/V1.00.006.zip"
     },
     "COLORado Solo Bar 1": {
       "unrival_id": 2277,
@@ -529,6 +529,17 @@
       "release_notes": "Improved dimming",
       "firmware_url": "https://github.com/Chauvet-Pro/COLORDASHPARH18XIP/raw/V1.231201/Firmware/V1.231201.zip"
     },
+    "COLORdash PAR H18X MW": {
+      "unrival_id": null,
+      "family": "COLORdash",
+      "aliases": [
+        "COLORDASHPARH18XMW"
+      ],
+      "firmware_version": "V1.231201",
+      "released_at": "2026-10-08T17:00:45Z",
+      "release_notes": "Initial production release",
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORDASHPARH18XMW/raw/V1.231201/Firmware/V1.231201.zip"
+    },
     "COLORDASHPARH7IP": {
       "unrival_id": null,
       "family": "COLORdash",
@@ -593,7 +604,7 @@
       "firmware_version": "V4.0.7",
       "released_at": "2025-09-05T16:18:52Z",
       "release_notes": "1. Added the 96CH mode\r\n2. When the plate priority is set to the pixels (channel 25 at 129-255), the values of the color masters (ch 10, 11, 12) are ignored completely and no longer act as an override\r\n3. The strobe channel can always affect the fixture even when on pixel priority",
-      "firmware_url": "https://github.com/Chauvet-Pro/COLORSTRIKEMV2/raw/V4.0.7/Firmware/V4_0_0_01-15-2024_Color%20Strike%20M.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/COLORSTRIKEMV2/raw/V4.0.7/Firmware/V4.0.7.zip"
     },
     "Epix D4 IP Driver": {
       "unrival_id": null,
@@ -1176,7 +1187,7 @@
       "firmware_version": "V023_20260123",
       "released_at": "2026-06-23T14:40:34Z",
       "release_notes": "Stops occasional DMX mode loss errors",
-      "firmware_url": "https://github.com/Chauvet-Pro/ONAIRFLEXDRIVE2/raw/V023_20260123/Firmware/V18_3-1-2022.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/ONAIRFLEXDRIVE2/raw/V023_20260123/Firmware/V023_20260123.zip"
     },
     "onAir Panel 1 IP": {
       "unrival_id": null,
@@ -1726,7 +1737,7 @@
       "firmware_version": "V1.3.03",
       "released_at": "2026-08-21T16:12:24Z",
       "release_notes": "Improved low-end dimming performance",
-      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEE3/raw/V1.3.03/firmware/V1.3.0_06-03-24.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEE3/raw/V1.3.03/firmware/V1.3.03.zip"
     },
     "Ovation R\u00eave E-3 IP": {
       "unrival_id": null,
@@ -1737,7 +1748,7 @@
       "firmware_version": "V1.3.03",
       "released_at": "2026-08-28T20:20:56Z",
       "release_notes": "Improved dimming performance",
-      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEE3IP/raw/V1.3.03/firmware/V1.3.1.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEE3IP/raw/V1.3.03/firmware/V1.3.03.zip"
     },
     "Ovation R\u00eave F-3": {
       "unrival_id": null,
@@ -2265,7 +2276,7 @@
       "firmware_version": "V1.0.6",
       "released_at": "2026-08-10T14:31:38Z",
       "release_notes": "Fixed network bug from previous version",
-      "firmware_url": "https://github.com/Chauvet-Pro/STRIKEARRAYULTRA/raw/V1.0.6/Firmware/V1.0.zip"
+      "firmware_url": "https://github.com/Chauvet-Pro/STRIKEARRAYULTRA/raw/V1.0.6/Firmware/V1.0.6.zip"
     },
     "STRIKE Bolt 1C": {
       "unrival_id": null,
