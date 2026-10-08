@@ -29,15 +29,3 @@ Update the fixture firmware first, then update the Bluetooth module from the app
 | -------------------- | ------------------------------------------------------------------------------------------------------ |
 | COLORado PXL Curve 1 | [V1.00.011](https://github.com/Chauvet-Pro/COLORADOPXLCURVE1/raw/V1.00.011/Firmware/V1.00.011.zip)     |
 | COLORado PXL Curve 5 | [V1.00.006](https://github.com/Chauvet-Pro/COLORADOPXLCURVE5/raw/V1.00.006/Firmware/V1.00.006.zip)     |
-
-## Fixtures Without Published Firmware Yet
-
-These fixtures are supported in the app, but their firmware is not published here yet.
-
-| Fixture            |
-| ------------------ |
-| Ovation Rêve H1    |
-| Ovation Rêve H2    |
-| Ovation Rêve E2    |
-| Ovation Rêve F2    |
-| Ovation Rêve P2 IP |
