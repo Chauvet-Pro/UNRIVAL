@@ -19,7 +19,7 @@ Getting a fixture working with the UNRIVAL app is a two-step process:
 | [COLORado Solo Bar 1](https://github.com/Chauvet-Pro/COLORADOSOLOBAR1)   | [V1.1.6](https://github.com/Chauvet-Pro/COLORADOSOLOBAR1/raw/V1.1.6/Firmware/V1.1.6.zip)            |
 | [COLORado Solo Bar 4](https://github.com/Chauvet-Pro/COLORADOSOLOBAR4)   | [V1.1.6](https://github.com/Chauvet-Pro/COLORADOSOLOBAR4/raw/V1.1.6/Firmware/V1.1.6.zip)            |
 | [COLORado Solo Bar 6](https://github.com/Chauvet-Pro/COLORADOSOLOBAR6)   | [V1.1.6](https://github.com/Chauvet-Pro/COLORADOSOLOBAR6/raw/V1.1.6/Firmware/V1.1.6.zip)            |
-| [COLORado Solo Pod E](https://github.com/Chauvet-Pro/COLORADOSOLOPODE) | Coming soon |
+| [COLORado Solo Pod E](https://github.com/Chauvet-Pro/COLORADOSOLOPODE) | Coming soon! |
 | [Maverick Storm 1 Flex](https://github.com/Chauvet-Pro/MAVERICKSTORM1FLEX) | [V1.260609](https://github.com/Chauvet-Pro/MAVERICKSTORM1FLEX/raw/V1.260609/firmware/V1.260609.zip) |
 
 ## Fixtures That Need Firmware Updates and Bluetooth Module Firmware
