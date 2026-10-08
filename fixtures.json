@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -398,7 +398,7 @@
       "firmware_url": "https://github.com/Chauvet-Pro/COLORADOSOLOEDGE3/raw/V1.0/Firmware/V1.0.zip"
     },
     "COLORado Solo Pod E": {
-      "unrival_id": null,
+      "unrival_id": 2693,
       "family": "COLORado",
       "aliases": [
         "COLORADOSOLOPODE"
