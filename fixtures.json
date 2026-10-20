@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -1727,6 +1727,17 @@
       "released_at": "2024-07-30T18:13:01Z",
       "release_notes": "Updated UID",
       "firmware_url": "https://github.com/Chauvet-Pro/OVATIONP56WW-2/raw/V1.0.3/Firmware/V1.0.3.zip"
+    },
+    "Ovation Reve E2": {
+      "unrival_id": 2655,
+      "family": "Ovation",
+      "aliases": [
+        "OVATIONREVEE2"
+      ],
+      "firmware_version": "V1.00.047",
+      "released_at": "2026-10-19T15:20:34Z",
+      "release_notes": "Initial software release",
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEE2/raw/V1.00.047/Firmware/V1.00.047.zip"
     },
     "Ovation R\u00eave E-3": {
       "unrival_id": null,
