@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -1987,10 +1987,10 @@
       "aliases": [
         "ROGUEOUTCAST3XWASH"
       ],
-      "firmware_version": "V1.250206",
-      "released_at": "2026-06-22T15:02:20Z",
-      "release_notes": "Added 28 channel mode",
-      "firmware_url": "https://github.com/Chauvet-Pro/ROGUEOUTCAST3XWASH/raw/V1.250206/Firmware/V1.250206.zip"
+      "firmware_version": "V1.260714",
+      "released_at": "2026-11-04T16:15:44Z",
+      "release_notes": "Added 27CH mode",
+      "firmware_url": "https://github.com/Chauvet-Pro/ROGUEOUTCAST3XWASH/raw/V1.260714/Firmware/V1.260714.zip"
     },
     "ROGUER1BEAM": {
       "unrival_id": null,
