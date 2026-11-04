@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 21,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -2295,10 +2295,10 @@
       "aliases": [
         "STRIKEARRAY2C"
       ],
-      "firmware_version": "V1.0.5",
-      "released_at": "2025-08-12T14:59:50Z",
-      "release_notes": "1. Revised the DRV FLASH clock wait cycles\r\n2. Fixed the backup battery indicator icon appearance inconsistencies\r\n3. Changed the firmware revision (V1.0) shown via ArtRDM\r\n4. Optimized the red shift effect at 25CH mode with various PWM combinations",
-      "firmware_url": "https://github.com/Chauvet-Pro/STRIKEARRAY2C/raw/V1.0.5/Firmware/V1.0.5.zip"
+      "firmware_version": "V1.0.6",
+      "released_at": "2026-11-04T16:52:51Z",
+      "release_notes": "Fixes a bug that caused the FAN Modes to be enabled momentarily without confirming the selection.\r\nFixes a bug in Stand-Alone that caused one of the fixture\u2019s Pods to flash on initial boot up without any signal before resuming normal operation (Auto Programs 4, 5, and 6).",
+      "firmware_url": "https://github.com/Chauvet-Pro/STRIKEARRAY2C/raw/V1.0.6/Firmware/V1.0.6_08-12-25.zip"
     },
     "STRIKE Array 4": {
       "unrival_id": null,
@@ -2317,10 +2317,10 @@
       "aliases": [
         "STRIKEARRAY4C"
       ],
-      "firmware_version": "V1.0.5",
-      "released_at": "2025-08-12T15:11:59Z",
-      "release_notes": "1. Revised the DRV FLASH clock wait cycles\r\n2. Fixed the backup battery indicator icon appearance inconsistencies\r\n3. Changed the firmware revision (V1.0) shown via ArtRDM\r\n4. Optimized the red shift effect at 25CH mode with various PWM combinations",
-      "firmware_url": "https://github.com/Chauvet-Pro/STRIKEARRAY4C/raw/V1.0.5/Firmware/V1.0.5_08-12-25.zip"
+      "firmware_version": "V1.0.6",
+      "released_at": "2026-11-04T17:02:28Z",
+      "release_notes": "- Fixed a bug that enabled fan modes momentarily without confirming the selection.",
+      "firmware_url": "https://github.com/Chauvet-Pro/STRIKEARRAY4C/raw/V1.0.6/Firmware/V1.0.6.zip"
     },
     "STRIKE Array Ultra": {
       "unrival_id": null,
