@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -1761,6 +1761,17 @@
       "release_notes": "Improved dimming performance",
       "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEE3IP/raw/V1.3.03/firmware/V1.3.03.zip"
     },
+    "Ovation Reve F2": {
+      "unrival_id": 2659,
+      "family": "Ovation",
+      "aliases": [
+        "OVATIONREVEF2"
+      ],
+      "firmware_version": "V1.00.016",
+      "released_at": "2026-10-26T19:51:24Z",
+      "release_notes": "Initial software release",
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEF2/raw/V1.00.016/Firmware/V1.00.016.zip"
+    },
     "Ovation R\u00eave F-3": {
       "unrival_id": null,
       "family": "Ovation",
@@ -1782,6 +1793,39 @@
       "released_at": "2024-11-18T17:39:40Z",
       "release_notes": "Improved fan stability in silent mode",
       "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEF3IP/raw/V1.0.2/Firmware/V1.0.2_11-18-24.zip"
+    },
+    "Ovation Reve H1": {
+      "unrival_id": 2652,
+      "family": "Ovation",
+      "aliases": [
+        "OVATIONREVEH1"
+      ],
+      "firmware_version": "V1.00.019",
+      "released_at": "2026-10-28T13:42:39Z",
+      "release_notes": "Initial software release",
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEH1/raw/V1.00.019/Firmware/V1.00.019.zip"
+    },
+    "Ovation Reve H2": {
+      "unrival_id": 2653,
+      "family": "Ovation",
+      "aliases": [
+        "OVATIONREVEH2"
+      ],
+      "firmware_version": "V1.00.018",
+      "released_at": "2026-10-28T13:51:38Z",
+      "release_notes": "Initial software release",
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEH2/raw/V1.00.018/Firmware/V1.00.018.zip"
+    },
+    "Ovation Reve P2 IP": {
+      "unrival_id": 2665,
+      "family": "Ovation",
+      "aliases": [
+        "OVATIONREVEP2IP"
+      ],
+      "firmware_version": "V1.00.016",
+      "released_at": "2026-10-29T20:26:31Z",
+      "release_notes": "Initial software release",
+      "firmware_url": "https://github.com/Chauvet-Pro/OVATIONREVEP2IP/raw/V1.00.016/Firmware/V1.00.016.zip"
     },
     "Ovation R\u00eave P-3 IP": {
       "unrival_id": null,
