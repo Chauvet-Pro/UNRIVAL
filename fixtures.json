@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "fixtures": {
     "Amhaze Stadium 2X IP": {
       "unrival_id": null,
@@ -2174,10 +2174,10 @@
       "aliases": [
         "ROGUER3BEAM"
       ],
-      "firmware_version": "V2.241118",
-      "released_at": "2025-08-06T18:57:27Z",
-      "release_notes": "Factory update for internal use only",
-      "firmware_url": "https://github.com/Chauvet-Pro/ROGUER3BEAM/raw/V2.241118/firmware/V2.241118.zip"
+      "firmware_version": "V2.261006",
+      "released_at": "2026-11-12T14:54:35Z",
+      "release_notes": "Fixed strobe sync issue",
+      "firmware_url": "https://github.com/Chauvet-Pro/ROGUER3BEAM/raw/V2.261006/firmware/V2.261006.zip"
     },
     "Rogue R3E Spot": {
       "unrival_id": null,
